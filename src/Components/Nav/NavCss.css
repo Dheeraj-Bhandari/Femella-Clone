@@ -12,12 +12,21 @@
   align-items: center;
   gap: 20px;
   /* width: 30%; */
+
+}
+
+.navBarIcon i{
+  font-size: 20px;
+  margin-right: 20px;
 }
 
 .searchBar {
   width: 50%;
 }
-
+.form-control.searchbar:placeholder-shown{
+  padding: 5px;
+  font-size: 15px;
+}
 .navLine1 {
   width: 100%;
   align-items: center;
@@ -34,7 +43,7 @@
   align-items: center;
   justify-content: space-between;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 
@@ -50,7 +59,7 @@ a {
   font-size: 16px;
   border: none;
   background-color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .dropbtn:hover {
@@ -99,15 +108,50 @@ a {
   margin-top: 0.5px;
 }
 
-
 /* Mobile Respossive */
 
-#mobile{
+#mobile {
   display: none;
 }
 
-@media screen and (max-width : 769px) {
-  .navMenu {
+@media screen and (max-width: 769px) {
+  .navbar {
+    display: none;
+    /* padding: 5%; */
+  }
+  .navbarMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbarMobileChild1 {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .navBarIconMobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+  }
+  .navBarIconMobile i {
+    font-size: 20px;
+  }
+  .searchBarMobile {
+    /* border: 2px solid red; */
+    width: 400px;
+  }
+
+  #navMenu {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -117,29 +161,76 @@ a {
     font-weight: lighter;
     position: fixed;
     top: 0px;
-    right: 0px;
+    right: -300px;
     width: 300px;
     height: 100vh;
     background: rgb(205, 205, 207);
     box-shadow: 0 40px 60px rgba(0, 0, 0.1);
     padding: 40px 0 0 10px;
     z-index: 999;
+    transition: 0.3s ease-in-out;
   }
-  .navMenu button{
+
+  #navMenu.active {
+    right: 0px;
+  }
+  #navMenu button {
     display: none;
   }
 
-  .navMenu a{
-    margin-bottom: 50px;
-    border: 2px solid red;
- 
+  #navMenu a {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 30px;
+    /* border: 2px solid red; */
   }
 
-  #mobile{
+  #mobile {
     display: block;
   }
-  #mobile i{
+  #mobile i {
     cursor: pointer;
     font-size: 24px;
+  }
+
+  .navLine2 {
+    display: none;
+  }
+
+  .form-control.searchbar:placeholder-shown{
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+
+
+
+@media screen and (min-width: 770px) {
+  .navbarMobile {
+    display: none;
+  }
+  .navMenu , .dropbtn{
+    font-size: 1.2rem;
+    margin: 5px;
+    z-index: 999;
+  }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  .navbarMobile {
+    display: none;
+  }
+  .navMenu , .dropbtn{
+    font-size: 1.5rem;
+    margin: 5px;
+    z-index: 999;
+  }
+
+  .navMenu{
+    justify-content: space-around;
   }
 }
