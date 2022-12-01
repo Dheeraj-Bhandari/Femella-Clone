@@ -1,0 +1,44 @@
+{
+    "data" : [
+    {
+        "img" : "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_72,$bh_72,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FXfr-HUINt.jpg",
+        "title" : "Featured",
+        "id" : "221092085915"
+    },
+    {
+        "img" : "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_72,$bh_72,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FrnfBSvmVI.jpg",
+        "title" : "Winter Wear",
+        "id" : "289949810859"
+    },
+    {
+        "img" : "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_72,$bh_72,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FnbALJsa1k.jpg",
+        "title" : "Maxi Dress",
+        "id" : "282560135339"
+    },
+    {
+        "img" : "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_72,$bh_72,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2F073DSu_37.jpg",
+        "title" : "Cotton Dresses",
+        "id" : "290102509739"
+    },
+    {
+        "img" : "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_72,$bh_72,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FK2fN8_bfy.jpg",
+        "title" : "Loungwear",
+        "id" : "234593550507"
+    },
+    {
+        "img" : "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_72,$bh_72,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FWcgbTFGF5.jpg",
+        "title" : "Plus Sizes",
+        "id" : "274030690475"
+    },
+    {
+        "img" : "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_72,$bh_72,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2F4TDBqnKh8.jpg",
+        "title" : "Back in Stock",
+        "id" : "289133232299"
+    },
+    {
+        "img" : "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_72,$bh_72,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FBcE_Sdq-k.png",
+        "title" : "INSTAGRAM",
+        "id" : "#"
+    }
+]
+}

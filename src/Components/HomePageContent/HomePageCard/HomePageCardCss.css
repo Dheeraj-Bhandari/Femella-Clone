@@ -1,0 +1,103 @@
+.carousel .slick-arrow.slick-prev,
+.carousel .slick-arrow.slick-next {
+  background: #fcfcfc;
+  width: 47px;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+}
+.carousel .slick-prev {
+  left: 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.carousel .slick-next {
+  right: 0;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+/* .multi__image:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+} */
+
+/* Card Section */
+
+.HomecardDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  text-align: center;
+  padding: 8px;
+}
+
+.mrp {
+  text-decoration: line-through;
+  font-size: small;
+}
+
+.discount {
+  background-color: #dc2626;
+  color: white;
+  font-size: small;
+  padding: 2px;
+}
+
+@media screen and (max-width: 1200px) {
+  .titleimg {
+    width: 100%;
+
+    /* border: 2px solid red; */
+  }
+  .carousel .slick-arrow.slick-prev,
+  .carousel .slick-arrow.slick-next {
+    width: 30px;
+    height: 50px;
+    background: transparent;
+  }
+}
+@media screen and (max-width: 769px) {
+  .titleimg {
+    width: 100%;
+    height: 250px;
+    /* border: 2px solid red; */
+  }
+
+  .prod_title,
+  .price {
+    font-size: small;
+  }
+  .carousel .slick-arrow.slick-prev,
+  .carousel .slick-arrow.slick-next {
+    width: 20px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .titleimg {
+    width: 100%;
+    height: 250px;
+  }
+ 
+
+  .prod_title,
+  .price {
+    font-size: small;
+  }
+  .carousel .slick-arrow.slick-prev,
+  .carousel .slick-arrow.slick-next {
+    width: 20px;
+    height: 30px;
+    display: none;
+  }
+}

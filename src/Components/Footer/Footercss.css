@@ -1,0 +1,55 @@
+.FooterParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  min-height: 0vh;
+  /* border: 2px solid red; */
+  /* width: 30%; */
+  background-color: #F6F6F6;
+  
+ 
+}
+
+
+.FooterChild1 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  
+}
+
+.FooterChild1 ul,
+p {
+  list-style: none;
+
+  text-decoration: none;
+  font-size: smaller;
+  line-height: 2rem;
+  font-weight: normal;
+}
+
+.subchild1,
+.subchild2,
+.subchild3,
+.subchild4,
+.subchild5 {
+  display: flex;
+  flex: 2;
+
+  flex-direction: column;
+  /* border: 2px solid black; */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footerpara p {
+  line-height: 1rem;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}

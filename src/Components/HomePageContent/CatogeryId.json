@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "title": "Featured",
+            "id": "221092085915",
+            "link" : "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_320,$bh_414,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FcdN8w6pMZ.jpg"
+        },
+        {
+            "title": "Winter Wear",
+            "id": "289949810859",
+            "link": "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_320,$bh_414,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FyuD8HKrEm.jpg"
+        },
+        {
+            "title": "Maxi Dresses",
+            "id": "282560135339",
+            "link": "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_320,$bh_414,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FRb70bKUfW.jpg"
+        },
+        {
+            "title": "Cotton Dresses",
+            "id": "290102509739",
+            "link": "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_320,$bh_414,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FcdN8w6pMZ.jpg"
+        },
+        {
+            "title": "Loungewear",
+            "id": "234593550507",
+            "link": "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_320,$bh_414,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FeZLlMB80s.jpg"
+        },
+        {
+            "title": "Plus Sizes",
+            "id": "274030690475",
+            "link": "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_320,$bh_414,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FRb70bKUfW.jpg"
+        },
+        {
+            "title": "Back In Stock",
+            "id": "289133232299",
+            "link": "https://res.cloudinary.com/makerinc/image/fetch/f_auto,q_auto,fl_preserve_transparency,c_fit,$bw_320,$bh_414,$dw_$bw_div_iw,$dh_$bh_div_ih/if_$dh_lt_$dw/w_$bw/if_else/h_$bh/if_end/dpr_1/https%3A%2F%2Fsmartnav-image-uploads.s3-us-west-1.amazonaws.com%2FRS2TDKVI_.jpg"
+        }
+    ]
+}
