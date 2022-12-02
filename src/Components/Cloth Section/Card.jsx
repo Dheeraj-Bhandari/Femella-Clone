@@ -39,7 +39,7 @@ const Card = ({ items }) => {
     >
       <Box position="relative">
         <Image h="302px" w="205px" src={img}></Image>
-        {showCart && <CartDrawer></CartDrawer>}
+        {showCart && <CartDrawer w="190px" top="270px"></CartDrawer>}
       </Box>
       <Box>
         <Text

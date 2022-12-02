@@ -1,5 +1,7 @@
+import { Box } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import ProdImages from "./ProdImages";
 
 const DetailsPage = () => {
   const { productid } = useParams();
@@ -14,7 +16,16 @@ const DetailsPage = () => {
       });
   }, []);
 
-  return <div>DetailsPage</div>;
+  return (
+    <Box>
+      <Box display="flex">
+        <Box w="55vw" h="100vh" border="1px">
+          <ProdImages></ProdImages>
+        </Box>
+        <Box w="45vw" h="100vh" border="1px"></Box>
+      </Box>
+    </Box>
+  );
 };
 
 export default DetailsPage;

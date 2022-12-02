@@ -24,10 +24,9 @@
   display: none;
 }
 
-/* .multi__image:hover {
-  transform: scale(1.1);
-  transition: 500ms;
-} */
+.multi__image:hover {
+  /* position: relative; */
+}
 
 /* Card Section */
 
@@ -88,7 +87,6 @@
     width: 100%;
     height: 250px;
   }
- 
 
   .prod_title,
   .price {

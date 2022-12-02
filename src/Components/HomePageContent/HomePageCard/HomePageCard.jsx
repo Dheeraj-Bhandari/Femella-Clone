@@ -7,6 +7,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import data from "../CatogeryId.json";
 import { useState } from "react";
 import { useEffect } from "react";
+import Cards from "./Cards";
 let slidesToShow = 5;
 const PreviousBtn = (props) => {
   const { className, onClick, currentSlide } = props;
@@ -74,7 +75,8 @@ const carouselProperties = {
 const HomePageCard = ({ id, title, index }) => {
   const [width, setWidth] = useState(window.innerWidth);
   const [catdata, setcatdata] = useState([]);
-  const [titleimg, settitleimg] = useState(true)
+  const [titleimg, settitleimg] = useState(true);
+  const [showButton, setShowButton] = useState(false);
 
   const updateWidth = () => {
     setWidth(window.innerWidth);
@@ -114,58 +116,20 @@ const HomePageCard = ({ id, title, index }) => {
       <h4 className="cardTitle">{title}</h4>
 
       <Slider {...carouselProperties}>
-        
         <LazyLoadImage
           className="titleimg"
           src={data.data[index].link}
           alt={id}
           effect="blur"
-         
           // height={100}
           key={id}
           placeholderSrc={data.data[index]}
         />
-        
+
         {catdata.map((ele) => {
-          return (
-            <div key={ele.id} className="HomecardDiv">
-            
-              <LazyLoadImage
-                className="multi__image"
-                src={ele.media[0][1].url}
-                alt={ele.id}
-                effect="blur"
-                width={"100%"}
-                // height={600}
-                // height={100}
-                key={ele.id}
-                placeholderSrc={ele.media[0][1].url}
-              />
-              <div>
-                <h5 className="prod_title">{ele.name.substring(0, 30)}...</h5>
-                <h5 className="price">
-                  ₹{Math.round(ele.variants[0].price)}{" "}
-                  <span className="mrp">
-                    ₹{Math.round(ele.variants[0].compareAtPrice)}
-                  </span>{" "}
-                  <span className="discount">
-                    &nbsp;{" "}
-                    {Math.round(
-                      ((ele.variants[0].compareAtPrice -
-                        ele.variants[0].price) /
-                        ele.variants[0].compareAtPrice) *
-                        100
-                    )}
-                    % &nbsp;
-                  </span>
-                </h5>
-              </div>
-            </div>
-          );
+          return <Cards ele={ele} w="140px"></Cards>;
         })}
-        
       </Slider>
-      
     </div>
   );
 };
