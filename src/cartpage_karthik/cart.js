@@ -10,6 +10,7 @@ const InitialState ={
   item : products,
   totalAmount : 0,
   totalItem : 0,
+  quantity :1,
 };
 // increment the item
 
