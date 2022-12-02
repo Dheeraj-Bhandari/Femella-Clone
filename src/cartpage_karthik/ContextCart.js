@@ -7,7 +7,7 @@ import { CartContext } from './cart';
 
 export default function ContextCart() {
     // const [item ,setItem] = React.useState(products)
-    const {item , totalItem } = useContext(CartContext)
+    const {item , totalItem , totalAmount} = useContext(CartContext)
 
   return (
     <div>
@@ -44,9 +44,9 @@ export default function ContextCart() {
           </div>
         </div>
         <div className='card-total'>
-            <h3>Sub Total : <span>2200rs</span></h3>
+            <h3>Sub Total : <span>₹ {totalAmount}</span></h3>
             <br></br>
-            <p>Tax included. <b>SHIPPING</b> calculated at checkout.</p>
+            <p>Tax included <b>SHIPPING</b> calculated at checkout</p>
             <button>Check out</button>
         </div>
         </section>

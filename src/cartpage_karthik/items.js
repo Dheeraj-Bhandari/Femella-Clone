@@ -22,7 +22,7 @@ export default function Items({id,description , title , img , price ,quantity}) 
             <i className="fa-solid fa-plus" add onClick={() => increment(id)}></i>
             </div>
             <div className='price'>
-                <h3>1200</h3>
+                <h3>{price}</h3>
             </div>
             <div className='remove-item'>
                 <i className="fa-solid fa-trash" remove onClick={ () => removeItem(id)}></i>
