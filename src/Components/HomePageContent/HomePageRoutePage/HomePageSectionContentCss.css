@@ -1,36 +1,31 @@
-.HomePageSectionContentDiv{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-    
+.HomePageSectionContentDiv {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
 }
 
-.addtocartdiv{
-    /* border: 2px solid red;
+.addtocartdiv {
+  /* border: 2px solid red;
     width: 100%;
     height: 100px;
     */
-    /* display: flex;
+  /* display: flex;
     align-items: center;
     justify-content: center; */
-    display: none;
-  
-    
+  display: none;
 }
-.HomePageSectionContentDiv button{
-    position: absolute;
-    /* top: 7%; */
-   /* margin-left: 5rem; */
-   margin-bottom: 10rem;
-    border: 2px solid red;
-    background-color: black;
-    color: #fafafa;
-    font-size: medium;
-    font-weight: 400;
-    width: 17rem;
-    
-
+.HomePageSectionContentDiv button {
+  position: absolute;
+  /* top: 7%; */
+  /* margin-left: 5rem; */
+  margin-bottom: 10rem;
+  /* border: 2px solid red; */
+  background-color: black;
+  color: #fafafa;
+  font-size: medium;
+  font-weight: 400;
+  width: 17rem;
 }

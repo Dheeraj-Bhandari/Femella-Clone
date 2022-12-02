@@ -49,7 +49,14 @@ const HomePageRoute = () => {
           />
         </Route>
 
-        <Route path="/details/:productid" element={<DetailsPage />} />
+        <Route
+          path="/details/:productid"
+          element={
+            <ChakraProvider>
+              <DetailsPage />
+            </ChakraProvider>
+          }
+        />
       </Routes>
     </>
   );
