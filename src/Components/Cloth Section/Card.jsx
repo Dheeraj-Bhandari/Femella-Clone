@@ -18,6 +18,7 @@ const Card = ({ items }) => {
   let [serchParams, setSearchParams] = useSearchParams();
   const [showDrawer, setShowDrawer] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const [img, setImage] = useState(items.images[0].url);
   const btnRef = React.useRef();
 
   const showCartHandler = () => {
@@ -27,13 +28,17 @@ const Card = ({ items }) => {
     <Box
       cursor="pointer"
       key={items.id}
-      onMouseEnter={showCartHandler}
+      onMouseEnter={() => {
+        showCartHandler();
+        setImage(items.images[1].url);
+      }}
       onMouseLeave={() => {
         setShowCart(false);
+        setImage(items.images[0].url);
       }}
     >
       <Box position="relative">
-        <Image h="302px" w="205px" src={items.images[0].url}></Image>
+        <Image h="302px" w="205px" src={img}></Image>
         {showCart && <CartDrawer></CartDrawer>}
       </Box>
       <Box>
@@ -56,13 +61,14 @@ const Card = ({ items }) => {
           </Text>
           <Box
             fontSize="10px"
-            w={8}
-            h={4}
+            w={12}
+            // h={8}
             bgColor="red"
-            ml={1}
+            pl={1}
             mt={1}
             color="white"
-            pl="2px"
+            // pl="2px"
+            // border="1px"
           >
             -30%
           </Box>
