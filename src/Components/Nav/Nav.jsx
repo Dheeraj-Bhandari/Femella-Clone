@@ -1,15 +1,48 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import data from "../HomePageContent/CatogeryId.json";
+import axios from "axios";
 import "./NavCss.css";
+import HomePageSectionContent from "../HomePageContent/HomePageRoutePage/HomePageSectionContent";
+let id;
+
+export let searchData;
 class Nav extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      serachValue: "",
+    };
+  }
+
+  showSearchresult() {
+    console.log(this.state.serachValue);
+    const found = data.data.filter((ele) => {
+      const data = ele.tag.filter((ele) => ele === this.state.serachValue);
+      if (data.length == 1) {
+        id = ele.id;
+
+        return;
+      }
+    });
+
+    axios
+      .get(
+        `https://smartnav.maker.co/api/get_products_by_category?category_id=${id}&store_id=623d4113c4dcc20004e6d187&sort=default&in_stock=true`
+      )
+      .then((res) => {
+        searchData = res.data.products;
+      });
+    // console.log(searchData)
+  }
+
   state = { clicked: false };
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
-
   render() {
     return (
-      <div>
+      <>
         <nav className="navbar container ">
           <div className="logo">
             <Link to="/">
@@ -19,10 +52,14 @@ class Nav extends Component {
               />
             </Link>
           </div>
+
           <div className="searchBar">
+            {/* <h1>{this.state.serachValue}</h1> */}
             <div className="input-group mb-2">
               <input
                 type="text"
+                value={this.state.serachValue}
+                onChange={(e) => this.setState({ serachValue: e.target.value })}
                 className="form-control searchbar"
                 placeholder="Search...."
                 aria-label="Recipient's username"
@@ -32,6 +69,7 @@ class Nav extends Component {
                 className="btn btn-outline-secondary"
                 type="button"
                 id="button-addon2"
+                onClick={() => this.showSearchresult()}
               >
                 <i className="fa-solid fa-magnifying-glass"></i>
               </button>
@@ -52,6 +90,12 @@ class Nav extends Component {
               </Link>
             </div>
           </div>
+          <HomePageSectionContent id={id} title={this.state.serachValue} />
+          {id ? (
+            <HomePageSectionContent id={id} title={this.state.serachValue} />
+          ) : (
+            ""
+          )}
         </nav>
 
         {/* Navbar Mobile  */}
@@ -212,7 +256,7 @@ class Nav extends Component {
           </div>
         </div>
         <hr className="navLine2" />
-      </div>
+      </>
     );
   }
 }
