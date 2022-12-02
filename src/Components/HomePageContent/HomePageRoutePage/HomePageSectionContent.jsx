@@ -8,7 +8,9 @@ const HomePageSectionContent = () => {
   const { id, title } = useParams();
 
   const [data, setdata] = useState([]);
-console.log(id, "outside")
+
+
+
   useEffect(() => {
     console.log(id , "inside")
     const Fecthcategory = async () => {
