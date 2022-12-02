@@ -1,0 +1,36 @@
+div{
+    font-family: sans-serif;
+}
+hr{
+    border: 0px;
+    border-top: 1px solid #eee;
+    height: 0px;
+    box-sizing: content-box;
+}
+p{
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+}
+input{
+    text-align: left;
+    margin-top: 15px;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+.login{
+    padding: 12px;
+    width: 110px;
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+    letter-spacing: 1px;
+}
+.btn-create{
+    margin-top: 18px;
+    letter-spacing: 1px;
+    text-decoration-line:underline;
+}
+
