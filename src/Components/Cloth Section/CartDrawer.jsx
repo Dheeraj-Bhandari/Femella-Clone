@@ -48,7 +48,7 @@ const CartDrawer = () => {
         finalFocusRef={btnRef}
       >
         <DrawerOverlay />
-        <DrawerContent textAlign="center">
+        <DrawerContent textAlign="center" w="200px" maxW="300px">
           <Text fontSize="14px" fontWeight="600" mt={2} font-family="Lato">
             Your Cart
           </Text>

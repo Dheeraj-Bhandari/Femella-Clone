@@ -28,7 +28,7 @@ const MaxiSection = ({}) => {
   }, [color, size]);
 
   return (
-    <Box mt={5} w="100vw">
+    <Box mt={5} w="100%">
       <Text fontSize="18px" fontWeight="600" ml="150px">
         Winter Wear
       </Text>
@@ -41,15 +41,10 @@ const MaxiSection = ({}) => {
         ></SortButtons>
         <Box
           display="grid"
-          w="87vw"
-          h="88vh"
-          overflow="scroll"
-          // border="1px"
           gridTemplateColumns="1fr 1fr 1fr 1fr"
-          // gap="10px"
-          gridRowGap="10px"
-          // gridColumnGap="-80px"
+          gap="20px"
           mt={4}
+          mb={10}
         >
           {data?.map((items) => (
             <Card items={items}></Card>
