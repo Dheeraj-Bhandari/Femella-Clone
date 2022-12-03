@@ -74,11 +74,11 @@ const HomePageSectionContent = () => {
                   
                   />
                 <div className="addtocartdiv" id={ele.id}>
-                  <button>Add To Cart</button>
+                  <button className="addtoCartbtnSectionpage">Add To Cart</button>
                 </div>
               </div>
-              <div>
-                <h5>{ele.name}</h5>
+              <div className="PriceAndTitleDiv">
+                <h5 className="ItemName">{ele.name}</h5>
                 <h5 className="price">
                   ₹{Math.round(ele.variants[0].price)}{" "}
                   <span className="mrp">
