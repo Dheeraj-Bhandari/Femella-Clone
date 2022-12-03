@@ -7,7 +7,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { Navigate, useNavigate, useSearchParams } from "react-router-dom";
 import CartDrawer from "./CartDrawer";
 
 const Card = ({ items }) => {
@@ -20,7 +20,7 @@ const Card = ({ items }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [img, setImage] = useState(items.images[0].url);
   const btnRef = React.useRef();
-
+  const navigate = useNavigate();
   const showCartHandler = () => {
     setShowCart(true);
   };
@@ -38,7 +38,14 @@ const Card = ({ items }) => {
       }}
     >
       <Box position="relative">
-        <Image h="302px" w="205px" src={img}></Image>
+        <Image
+          h="302px"
+          w="205px"
+          src={img}
+          onClick={() => {
+            navigate(`/details/${items.id}`);
+          }}
+        ></Image>
         {showCart && <CartDrawer w="190px" top="270px"></CartDrawer>}
       </Box>
       <Box>
