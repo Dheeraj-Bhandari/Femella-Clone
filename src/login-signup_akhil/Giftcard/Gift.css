@@ -1,0 +1,34 @@
+.giftcard{
+    font-size: 24px!important;
+    font-weight: 400!important;
+    color: #000!important;
+    text-align: center!important;
+    /* font-size: 0px!important;
+    opacity: .87!important; */
+    line-height: 1.1875em!important;
+    font-style: normal!important;
+    text-decoration: none!important;
+    letter-spacing: 0em!important;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    font-family: BROLIMO!important;
+    opacity: 1!important;
+}
+.giftcard p{
+    font-family: 'Gotham Book',sans-serif!important;
+    opacity: 1!important;
+    line-height: 1.1875em!important;
+    font-style: normal!important;
+    text-decoration: none!important;
+    letter-spacing: 0em!important;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    font-family: BROLIMO!important;
+    opacity: 1!important;
+    color: #000!important;
+    text-align: center!important;
+}
+.main{
+    background-color: #f3e0d4;
+    padding-bottom: 100px;
+}

@@ -2,6 +2,7 @@ import { Box, Checkbox, Image, Input, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import Card from "./Card";
+import SortButtons from "./SortButtons";
 
 const WinterSection = () => {
   const [data, setData] = useState([]);
@@ -26,90 +27,28 @@ const WinterSection = () => {
   }, [color, size]);
 
   return (
-    <Box mx="20px" mt={5}>
+    <Box mt={5} w="100%">
       <Text fontSize="18px" fontWeight="600">
         Winter Wear
       </Text>
-
-      <Box>
-        <Text>Colors</Text>
-        <Checkbox
-          name="black"
-          value="Black"
-          onChange={(e) => {
-            setSColor(e.target.value);
-            setSearchParams({ color: "Black", size });
-          }}
+      <Box display="flex">
+        <SortButtons
+          setSColor={setSColor}
+          size={size}
+          setSize={setSize}
+          setSearchParams={setSearchParams}
+        ></SortButtons>
+        <Box
+          display="grid"
+          gridTemplateColumns="1fr 1fr 1fr 1fr"
+          gap="20px"
+          mt={4}
+          mb={10}
         >
-          Black
-        </Checkbox>
-        <Checkbox
-          ml={2}
-          name="blue"
-          value="Blue"
-          onChange={(e) => {
-            setSColor(e.target.value);
-            setSearchParams({ color: "Blue", size });
-          }}
-        >
-          Blue
-        </Checkbox>
-        <Checkbox
-          ml={2}
-          name="Yellow"
-          value="Yellow"
-          onChange={(e) => {
-            setSColor(e.target.value);
-            setSearchParams({ color: "Yellow", size });
-          }}
-        >
-          Yellow
-        </Checkbox>
-      </Box>
-      <Box>
-        <Text>Size</Text>
-        <Checkbox
-          name="XL"
-          value="XL"
-          onChange={(e) => {
-            setSize(e.target.value);
-            setSearchParams({ size: "XL" });
-          }}
-        >
-          XL
-        </Checkbox>
-        <Checkbox
-          ml={2}
-          name="S"
-          value="S"
-          onChange={(e) => {
-            setSize(e.target.value);
-            setSearchParams({ size: "S" });
-          }}
-        >
-          S
-        </Checkbox>
-        <Checkbox
-          ml={2}
-          name="M"
-          value="M"
-          onChange={(e) => {
-            setSize(e.target.value);
-            setSearchParams({ size: "M" });
-          }}
-        >
-          M
-        </Checkbox>
-      </Box>
-      <Box
-        display="grid"
-        gridTemplateColumns="1fr 1fr 1fr 1fr"
-        gap="20px"
-        mt={4}
-      >
-        {data?.map((items) => (
-          <Card items={items}></Card>
-        ))}
+          {data?.map((items) => (
+            <Card items={items}></Card>
+          ))}
+        </Box>
       </Box>
     </Box>
   );

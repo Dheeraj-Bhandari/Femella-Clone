@@ -16,11 +16,12 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { useState } from "react";
-const CartDrawer = () => {
+const CartDrawer = ({ w, top, bottom, left, right }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
   const [count, setCount] = useState(1);
   const [total, setTotal] = useState(1819);
+
   return (
     <>
       <Button
@@ -29,12 +30,14 @@ const CartDrawer = () => {
         px={1}
         pb={1}
         borderRadius="5px"
-        w="190px"
+        w={w}
         h="25px"
         textAlign="center"
         bgColor="black"
         color="white"
-        top="270px"
+        right={right}
+        left={left}
+        top={top}
         onClick={onOpen}
         ref={btnRef}
         _hover={{ bgColor: "black" }}
@@ -48,7 +51,7 @@ const CartDrawer = () => {
         finalFocusRef={btnRef}
       >
         <DrawerOverlay />
-        <DrawerContent textAlign="center">
+        <DrawerContent textAlign="center" w="200px" maxW="300px">
           <Text fontSize="14px" fontWeight="600" mt={2} font-family="Lato">
             Your Cart
           </Text>
