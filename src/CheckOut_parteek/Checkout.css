@@ -1,0 +1,121 @@
+.main_container{
+    display: flex;
+}
+.main_container .container_1 {
+ width:60%;
+ border:1px solid black;
+}
+.main_container .container_2 {
+    width:40%;
+   }
+   .logo_1 img{
+    height:50px;
+    width:125px;
+   }
+.space_container{
+    margin-left: 130px;
+    margin-top: 25px;
+}
+.Con_1_Card_3{
+    display: flex;
+    justify-content: space-between;
+}
+.already{
+    margin-right: 100px;
+}
+.Con_1_Card_3_input input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.Con_1_Card_3_chkbox{
+    margin-top: 10px;
+}
+.Con_1_Card_4_form input{
+    padding:15px;
+    margin: 5px;
+}
+input{
+    text-align: start;
+}
+.Con_1_Card_4_address{
+    
+}
+.siingle_input input{
+    width: 80%;
+}
+.multiple_input input{
+    width: 22.5%;
+}
+.double_input input{
+ width: 37%;
+}
+.Con_1_Card_4_button{
+    display: flex;
+    justify-content: space-between;
+}
+.Con_1_Card_4_button button{
+    padding: 20px;
+    background-color: blue;
+     color: azure;
+     margin-right: 90px;
+}
+.Container2_wrap{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.small-text{
+    margin-right: 240px;
+}
+.product__description{
+    width: 70%;
+    margin-bottom: 50px;
+   
+}
+.price_action{
+    margin-top: 20px;
+}
+.Con2_Card_2{
+    display: flex;
+}
+.Con2_Card_2 input {
+    width:350px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.Con2_Card_2 button{
+ padding: 15px;
+ background-color: black;
+ color: white;
+ margin-top: 10px;
+ margin-left: 10px;
+ width: 80px;
+}
+.image_1{
+    margin-top: 20px;
+}
+.image_2{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.selectedbox1 div{
+    border: 1px solid black;
+    padding: 20px;
+    width: 80%;
+}
+.selectedbox2 div{
+    border: 1px solid black;
+    padding: 20px;
+    width: 80%;
+   
+}
+.selectedbox2{
+    margin-bottom: 20px;
+}
+.selectedbox1 span{
+  
+ margin: 30px;
+}
