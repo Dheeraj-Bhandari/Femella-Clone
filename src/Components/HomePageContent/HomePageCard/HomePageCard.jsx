@@ -8,6 +8,7 @@ import data from "../CatogeryId.json";
 import { useState } from "react";
 import { useEffect } from "react";
 import Cards from "./Cards";
+
 let slidesToShow = 5;
 const PreviousBtn = (props) => {
   const { className, onClick, currentSlide } = props;
@@ -122,6 +123,7 @@ const HomePageCard = ({ id, title, index }) => {
           alt={id}
           effect="blur"
           // height={100}
+         
           key={id}
           placeholderSrc={data.data[index]}
         />

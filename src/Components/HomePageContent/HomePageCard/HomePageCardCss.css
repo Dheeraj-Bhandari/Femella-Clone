@@ -32,6 +32,7 @@
 
 .HomecardDiv {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   /* border: 2px solid red; */
@@ -50,7 +51,18 @@
   font-size: small;
   padding: 2px;
 }
+.prod_title{
+  font-size: 2rem;
+}
+.price{
+font-size: 2rem;
+}
 
+.pricediv{
+  align-items: flex-start;
+ 
+  display: flex;
+}
 @media screen and (max-width: 1200px) {
   .titleimg {
     width: 100%;
@@ -63,7 +75,13 @@
     height: 50px;
     background: transparent;
   }
+
+  .prod_title,
+  .price {
+    font-size: 1rem;
+  }
 }
+
 @media screen and (max-width: 769px) {
   .titleimg {
     width: 100%;
@@ -73,7 +91,7 @@
 
   .prod_title,
   .price {
-    font-size: small;
+    font-size: 1rem;
   }
   .carousel .slick-arrow.slick-prev,
   .carousel .slick-arrow.slick-next {
@@ -90,7 +108,7 @@
 
   .prod_title,
   .price {
-    font-size: small;
+    font-size: 0.5rem;
   }
   .carousel .slick-arrow.slick-prev,
   .carousel .slick-arrow.slick-next {

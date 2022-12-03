@@ -22,10 +22,57 @@
   /* top: 7%; */
   /* margin-left: 5rem; */
   margin-bottom: 10rem;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   background-color: black;
   color: #fafafa;
   font-size: medium;
   font-weight: 400;
   width: 17rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .HomePageSectionContentDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .ItemName {
+    font-size: 2 rem;
+  }
+  .PriceAndTitleDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 769px) {
+  .HomePageSectionContentDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ItemName {
+    font-size: 1rem;
+  }
+  .mrp,
+  .discount {
+    font-size: 0.5rem;
+    /* margin-right: 5px; */
+  }
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .HomePageSectionContentDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mrp,
+  .discount {
+    font-size: 0.2rem;
+    margin-right: 5px;
+  }
+
+  .addtoCartbtnSectionpage {
+    margin-left: 40px;
+  }
 }

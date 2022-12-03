@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import CartDrawer from "../../Cloth Section/CartDrawer";
-
+import "./HomePageCardCss.css";
 const Cards = ({ ele, w }) => {
   const [showButton, setShowButton] = useState(false);
 
@@ -24,7 +24,7 @@ const Cards = ({ ele, w }) => {
             alt={ele.id}
             effect="blur"
             width={"100%"}
-            height="260px"
+            // height="260px"
             // height={100}
             key={ele.id}
             placeholderSrc={ele.media[0][1].url}
@@ -33,6 +33,8 @@ const Cards = ({ ele, w }) => {
         </div>
         <div>
           <h5 className="prod_title">{ele.name.substring(0, 30)}...</h5>
+          <div className="pricediv">
+
           <h5 className="price">
             ₹{Math.round(ele.variants[0].price)}{" "}
             <span className="mrp">
@@ -48,6 +50,7 @@ const Cards = ({ ele, w }) => {
               % &nbsp;
             </span>
           </h5>
+          </div>
         </div>
       </div>
     </>
