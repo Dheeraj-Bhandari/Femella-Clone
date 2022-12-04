@@ -4,6 +4,7 @@ import './GoogleBtn.css'
 import { signInWithGoogle } from "./Firebase";
 
 const GoogleBtn = () => {
+    
     return (
         <div className='container'>
             <div className='g-btn'>

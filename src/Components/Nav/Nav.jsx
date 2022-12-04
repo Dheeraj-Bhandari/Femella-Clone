@@ -43,7 +43,7 @@ class Nav extends Component {
   render() {
     return (
       <>
-        <nav className="navbar container ">
+        <nav className="navbar container">
           <div className="logo">
             <Link to="/">
               <img
@@ -80,9 +80,11 @@ class Nav extends Component {
             <div className="wishList">
               <i className="fa-regular fa-heart"></i>
             </div>
-            <div className="profile">
-              <i className="fa-solid fa-user"></i>
-            </div>
+            <Link to="login">
+              <div className="profile">
+                <i className="fa-solid fa-user"></i>
+              </div>
+            </Link>
             <div className="carticon">
               <Link to="/cart">
                 {" "}
@@ -90,7 +92,7 @@ class Nav extends Component {
               </Link>
             </div>
           </div>
-          <HomePageSectionContent id={id} title={this.state.serachValue} />
+          {/* <HomePageSectionContent id={id} title={this.state.serachValue} /> */}
           {id ? (
             <HomePageSectionContent id={id} title={this.state.serachValue} />
           ) : (
@@ -229,7 +231,7 @@ class Nav extends Component {
           </div>
 
           <div>
-            <Link to="#">The Gift Shop</Link>
+            <Link to="/Giftcard/Gift">The Gift Shop</Link>
           </div>
           <div>
             <Link to="/Plus%20Sizes/274030690475">Plus Size</Link>
