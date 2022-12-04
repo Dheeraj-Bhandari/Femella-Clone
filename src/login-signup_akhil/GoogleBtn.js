@@ -1,22 +1,25 @@
-import React from 'react'
-import GoogleLogo from './images/google.png'
-import './GoogleBtn.css'
-import { signInWithGoogle } from "./Firebase";
+import React, { useContext } from "react";
+import GoogleLogo from "./images/google.png";
+import "./GoogleBtn.css";
+import { AuthContext } from "../Context/AuthContext";
+// import { signInWithGoogle } from "./Firebase";
 
 const GoogleBtn = () => {
-    return (
-        <div className='container'>
-            <div className='g-btn'>
-                <div className='content-wrapper'>
-                    <div className='logo-wrapper'>
-                        <img src={GoogleLogo} />
-                    </div>
-                    <span className='text-container'>
-                        <span onClick={signInWithGoogle} >Google Login</span>
-                    </span>
-                </div>
-            </div>
+  const { signUpGoogle } = useContext(AuthContext);
+  console.log(signUpGoogle);
+  return (
+    <div className="container">
+      <div className="g-btn" onClick={signUpGoogle}>
+        <div className="content-wrapper">
+          <div className="logo-wrapper">
+            <img src={GoogleLogo} alt="" />
+          </div>
+          <span className="text-container">
+            <span>Google Login</span>
+          </span>
         </div>
-    )
-}
-export default GoogleBtn
+      </div>
+    </div>
+  );
+};
+export default GoogleBtn;
