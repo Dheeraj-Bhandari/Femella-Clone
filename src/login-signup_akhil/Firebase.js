@@ -1,6 +1,8 @@
 
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { useNavigate } from 'react-router-dom';
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyB8LbvxaXPsRnkKibecmFw2938e1h1-y2E",
@@ -18,6 +20,8 @@ export const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
 export const signInWithGoogle = () => {
+
+
   signInWithPopup(auth, provider)
     .then((result) => {
     //   const name = result.user.displayName;
