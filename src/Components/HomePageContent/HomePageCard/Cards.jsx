@@ -29,27 +29,28 @@ const Cards = ({ ele, w }) => {
             key={ele.id}
             placeholderSrc={ele.media[0][1].url}
           />
-          {showButton && <CartDrawer w={w} top="140px" left="px"></CartDrawer>}
+          {showButton && (
+            <CartDrawer w="160px" top="200px" left="px"></CartDrawer>
+          )}
         </div>
         <div>
           <h5 className="prod_title">{ele.name.substring(0, 30)}...</h5>
           <div className="pricediv">
-
-          <h5 className="price">
-            ₹{Math.round(ele.variants[0].price)}{" "}
-            <span className="mrp">
-              ₹{Math.round(ele.variants[0].compareAtPrice)}
-            </span>{" "}
-            <span className="discount">
-              &nbsp;{" "}
-              {Math.round(
-                ((ele.variants[0].compareAtPrice - ele.variants[0].price) /
-                  ele.variants[0].compareAtPrice) *
-                  100
-              )}
-              % &nbsp;
-            </span>
-          </h5>
+            <h5 className="price">
+              ₹{Math.round(ele.variants[0].price)}{" "}
+              <span className="mrp">
+                ₹{Math.round(ele.variants[0].compareAtPrice)}
+              </span>{" "}
+              <span className="discount">
+                &nbsp;{" "}
+                {Math.round(
+                  ((ele.variants[0].compareAtPrice - ele.variants[0].price) /
+                    ele.variants[0].compareAtPrice) *
+                    100
+                )}
+                % &nbsp;
+              </span>
+            </h5>
           </div>
         </div>
       </div>

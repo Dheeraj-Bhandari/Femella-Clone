@@ -47,7 +47,12 @@ const DetailsPage = () => {
             <Box position="absolute" top="50px" bottom="50px">
               <ProdImages prod={prod}></ProdImages>
             </Box>
-            <Box position="absolute" top="30%" left="80%">
+            <Box
+              position="absolute"
+              top="30%"
+              left="80%
+            "
+            >
               <Image w="10%" ml={50} src={prod[0]?.images[3].url}></Image>
             </Box>
           </Box>
