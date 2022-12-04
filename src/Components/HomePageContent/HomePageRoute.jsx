@@ -19,7 +19,7 @@ const HomePageRoute = () => {
     <>
       <Routes>
         <Route element={<HomePage />}>
-          <Route path="/" element={<HomePageContent />}></Route>
+          <Route path="/" element={<HomePageContent />}/>
           <Route
             exact
             path="/:title/:id"
