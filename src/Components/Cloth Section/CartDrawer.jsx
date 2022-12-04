@@ -41,6 +41,7 @@ const CartDrawer = ({ w, top, bottom, left, right }) => {
         onClick={onOpen}
         ref={btnRef}
         _hover={{ bgColor: "black" }}
+        className="addtocartbutton"
       >
         Add To Cart
       </Button>

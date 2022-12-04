@@ -51,16 +51,16 @@
   font-size: small;
   padding: 2px;
 }
-.prod_title{
+.prod_title {
   font-size: 2rem;
 }
-.price{
-font-size: 2rem;
+.price {
+  font-size: 2rem;
 }
 
-.pricediv{
+.pricediv {
   align-items: flex-start;
- 
+
   display: flex;
 }
 @media screen and (max-width: 1200px) {
@@ -79,6 +79,11 @@ font-size: 2rem;
   .prod_title,
   .price {
     font-size: 1rem;
+  }
+
+  .addtocartbutton {
+    top: 100%;
+    right: 80rem;
   }
 }
 
