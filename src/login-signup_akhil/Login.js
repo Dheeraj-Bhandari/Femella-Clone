@@ -3,7 +3,7 @@ import FaceBtn from './FaceBtn';
 import GoogleBtn from './GoogleBtn';
 import './Login.css'
 import Validation from './Validation';
-
+import { Link } from 'react-router-dom'
 
 const Login = () => {
     const [data, setData] = useState({
@@ -45,9 +45,9 @@ const Login = () => {
                 { errors.email && <p style={{color:"red", fontSize:"12px"}}>{errors.email}</p> }
                 <input type="password" name="password" value={password} placeholder="Password" onChange={changeHandler} /> <br/>
                 { errors.password && <p style={{color:"red", fontSize:"12px"}}>{errors.password}</p> }
-                <p style={{paddingRight:"270px", textDecorationLine:"underline"}}>FORGOT YOUR PASSWORD?</p>
-                <button onClick={submitHandler} className="login">Sign in</button>
-                <p className="btn-create">CREATE ACCOUNT</p>
+                <Link to="/Forgotpass"><p style={{paddingRight:"270px", textDecorationLine:"underline"}}>FORGOT YOUR PASSWORD?</p></Link>
+                <Link to="/HomePage"><button onClick={submitHandler} className="login">Sign in</button></Link>
+                <Link to="/SignUp"><p className="btn-create">CREATE ACCOUNT</p></Link>
                 </form>
             </center>
         </div>
