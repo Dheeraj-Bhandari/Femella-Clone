@@ -107,28 +107,16 @@ function Checkout() {
       <div className='container_2'>
        <div className='Container2_wrap'>
                 <div className='Con2_Card_1'>
-                    <table>
-                        <tr>
-                            <td>
-                            <img  src="//cdn.shopify.com/s/files/1/1695/7273/products/FF-4094A-BLK_2_small.jpg?v=1667392280"/> 
-                            </td>
-                            <td>
-                            <th>
-                            <tr className='product__description'>
-                            <span>Black Cotton Poplin Smocked Maxi Dress</span>
-                            </tr>
-                            <tr>
-                            <span className="small-text">Black / S</span>
-                            </tr>
-                            
-                            </th>
-
-                            </td>
-                            <td>
-                            <span className='price_action'>₹2,659.00</span>
-                            </td>
-                        </tr>
-                    </table>
+                    <div className='image_paart'>
+                      <img src="https://cdn.shopify.com/s/files/1/1695/7273/products/09-11-202201789_small.jpg?v=1670059325"/>
+                    </div>
+                    <div className='Prod_desc'>
+                    Black Hooded Cropped Fleece Zip Up<br></br>
+                    Black / XS
+                    </div>
+                    <div className='prod_price'>
+                   ₹2,374.00
+                    </div>
                     </div>
                     <hr></hr>
                     <div className='Con2_Card_2'>
@@ -147,8 +135,40 @@ function Checkout() {
                      <img src = {delievery}/>
                      </div>
                     </div>
+                    <hr></hr>
                     <div className='Con2_Card_4'>
-              
+                   <table>
+                    <tr>
+                      <th>
+                        Subtotal
+                      </th>
+                    
+                      <td>
+                      ₹2,374.00
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                      Shipping
+                      </th>
+                     
+                      <td>
+                      Calculated at next step
+                      </td>
+                    
+                       </tr>
+                       <tr>
+                    
+                      <th>
+                     Total
+                      </th>
+                      
+                      <td>
+                      INR ₹2,374.00
+                      </td>
+                    </tr>
+                   </table>
+                   <hr></hr>
                     </div>
                     <div>
 

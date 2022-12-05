@@ -140,20 +140,7 @@ input{
     margin-left:200px ;
 }
 
-table{
-   
-    margin-left: 10px;
-    
-   
-}
-th{
-    font-weight: 400;
-    margin-left: 15px;
-}
-td{
-    text-align: end;
-    padding-left: 150px;
-}
+
 hr{
     width: 80%;
     margin-left: 20px;
@@ -166,4 +153,7 @@ td{
 }
 .selectedbox1 div{
     margin: 10px;
+}
+table{
+    
 }
