@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import CartDrawer from "../../Cloth Section/CartDrawer";
+import CartDrawer from "../../Cloth Section/CartItems";
 import "./HomePageCardCss.css";
 const Cards = ({ ele, w }) => {
   const [showButton, setShowButton] = useState(false);

@@ -1,7 +1,9 @@
-
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { useNavigate } from 'react-router-dom';
+
+import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../Context/AuthContext";
 
 
 const firebaseConfig = {
@@ -10,27 +12,8 @@ const firebaseConfig = {
   projectId: "auth-786e4",
   storageBucket: "auth-786e4.appspot.com",
   messagingSenderId: "316253366020",
-  appId: "1:316253366020:web:7d4a1eeb668c1915dad251"
+  appId: "1:316253366020:web:7d4a1eeb668c1915dad251",
 };
-
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-
-const provider = new GoogleAuthProvider();
-
-export const signInWithGoogle = () => {
-
-
-  signInWithPopup(auth, provider)
-    .then((result) => {
-    //   const name = result.user.displayName;
-    //   const email = result.user.email;
-
-    //   localStorage.setItem("name", name);
-    //   localStorage.setItem("email", email);
-    })
-    .catch((error) => {
-      console.log(error);
-    });
-};
