@@ -122,14 +122,20 @@ const HomePageCard = ({ id, title, index }) => {
           src={data.data[index].link}
           alt={id}
           effect="blur"
-          // height={100}
-         
           key={id}
           placeholderSrc={data.data[index]}
         />
 
         {catdata.map((ele) => {
-          return <Cards ele={ele} w="140px"></Cards>;
+          return (
+            <Cards
+              ele={ele}
+              w="190px"
+              top="240px"
+              left="1px"
+              right="15px"
+            ></Cards>
+          );
         })}
       </Slider>
     </div>
