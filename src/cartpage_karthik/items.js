@@ -30,7 +30,7 @@ export default function Items({ curItem }) {
         <div className="remove-item">
           <i
             className="fa-solid fa-trash"
-            remove
+
             // onClick={() => removeItem(id)}
           ></i>
         </div>
