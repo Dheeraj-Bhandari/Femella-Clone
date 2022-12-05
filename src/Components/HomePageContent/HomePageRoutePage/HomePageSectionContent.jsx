@@ -5,6 +5,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./HomePageSectionContentCss.css";
 import CartDrawer from "../../Cloth Section/CartItems";
 import Cards from "../HomePageCard/Cards";
+import Nav from "../../Nav/Nav";
+import HomePageRounded from "../../HomePageRoundedSection/HomePageRounded";
 
 const HomePageSectionContent = () => {
   const { id, title } = useParams();
@@ -37,6 +39,7 @@ const HomePageSectionContent = () => {
 
   return (
     <>
+   
       <h3>{title}</h3>
       <div className="HomePageSectionContentDiv">
         {data.map((ele, index) => {

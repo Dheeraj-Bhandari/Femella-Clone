@@ -19,7 +19,7 @@ const HomePageRoute = () => {
     <>
       <Routes>
         <Route element={<HomePage />}>
-          <Route path="/" element={<HomePageContent />}></Route>
+          <Route path="/" element={<HomePageContent />}/>
           <Route
             exact
             path="/:title/:id"
@@ -30,7 +30,7 @@ const HomePageRoute = () => {
           <Route path="/Login" element={<Login />} />
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/Forgotpass" element={<Forgotpass />} />
-          <Route path="./Giftcard/Gift" element={<Gift />} />
+          <Route path="/Giftcard/Gift" element={<Gift />} />
           <Route
             path="/winter"
             element={

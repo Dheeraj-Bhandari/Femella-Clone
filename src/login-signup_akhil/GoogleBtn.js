@@ -5,6 +5,7 @@ import { AuthContext } from "../Context/AuthContext";
 // import { signInWithGoogle } from "./Firebase";
 
 const GoogleBtn = () => {
+
   const { signUpGoogle } = useContext(AuthContext);
   console.log(signUpGoogle);
   return (
@@ -17,6 +18,7 @@ const GoogleBtn = () => {
           <span className="text-container">
             <span>Google Login</span>
           </span>
+
         </div>
       </div>
     </div>
