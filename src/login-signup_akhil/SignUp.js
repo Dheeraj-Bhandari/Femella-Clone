@@ -38,7 +38,9 @@ const SignUp = () => {
                 <p style={{color:"rgb(4, 120, 166)"}}>here</p>
                 <hr style={{marginTop:"4px", marginRight:"4px"}}></hr>
                 <FaceBtn1 />
+                <div>
                 <GoogleBtn1 />
+                </div>
                 <input type="text" name="fullname" value={fullname} placeholder="Full name" onChange={changeHandler} /> <br/>
                 { errors.fullname && <p style={{color:"red", fontSize:"12px"}}>{errors.fullname}</p> }
                 <input type="email" name="email" value={email} placeholder="Email" onChange={changeHandler} /> <br/>
