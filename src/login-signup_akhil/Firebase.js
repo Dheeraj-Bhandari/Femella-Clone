@@ -1,8 +1,10 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContext";
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyB8LbvxaXPsRnkKibecmFw2938e1h1-y2E",
@@ -15,6 +17,3 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-// const first = useContext(AuthContext)
-// const navigate = useNavigate();
-// export const signInWithGoogle = () => {};

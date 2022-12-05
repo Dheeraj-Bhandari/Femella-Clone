@@ -8,6 +8,7 @@ import HomePageRoute from "./Components/HomePageContent/HomePageRoute";
 function App() {
   return (
     <>
+    
       <HomePageRoute />
     </>
   );
