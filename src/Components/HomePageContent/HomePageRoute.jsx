@@ -13,13 +13,16 @@ import MaxiSection from "../Cloth Section/MaxiSection";
 import { ChakraProvider } from "@chakra-ui/react";
 import DetailsPage from "../Details Page/DetailsPage";
 import HomePage from "./HomePage";
+import Checkout from "../../CheckOut_parteek/Checkout";
+import Checkout2 from "../../CheckOut_parteek/Checkout2";
+import Checkout3 from "../../CheckOut_parteek/CheckOut3";
 
 const HomePageRoute = () => {
   return (
     <>
       <Routes>
         <Route element={<HomePage />}>
-          <Route path="/" element={<HomePageContent />}/>
+          <Route path="/" element={<HomePageContent />} />
           <Route
             exact
             path="/:title/:id"
@@ -31,6 +34,7 @@ const HomePageRoute = () => {
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/Forgotpass" element={<Forgotpass />} />
           <Route path="/Giftcard/Gift" element={<Gift />} />
+
           <Route
             path="/winter"
             element={
@@ -57,6 +61,9 @@ const HomePageRoute = () => {
             </ChakraProvider>
           }
         />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/checkout2" element={<Checkout2 />} />
+        <Route path="/checkout/bill" element={<Checkout3 />} />
       </Routes>
     </>
   );
