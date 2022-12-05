@@ -234,7 +234,7 @@ class Nav extends Component {
             <Link to="/Giftcard/Gift">The Gift Shop</Link>
           </div>
           <div>
-            <Link to="/Plus%20Sizes/274030690475">Plus Size</Link>
+            <Link to="/maxi">Maxi Section</Link>
           </div>
           <div>
             <Link to="/INSTAGRAM/">Shop Instagram</Link>

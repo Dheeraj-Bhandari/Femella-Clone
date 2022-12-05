@@ -1,10 +1,11 @@
-import React, { useContext } from "react";
-import { CartContext } from "./cart";
+import React, { useContext, useState } from "react";
+import { CartContext } from "../Context/CartContext";
+// import { CartContext } from "./cart";
 
 export default function Items({ curItem }) {
   console.log(curItem);
-  const { removeItem, increment, decrement } = useContext(CartContext);
-
+  const { totalAmount, setTotalAmout } = useContext(CartContext);
+  const [count, setCount] = useState(1);
   return (
     <div>
       <div className="items-info">
@@ -19,10 +20,22 @@ export default function Items({ curItem }) {
           <i
             className="fa-solid fa-minus"
             minus
-            // onClick={() => decrement(id)}
+            onClick={() => {
+              if (count > 1) {
+                setTotalAmout(totalAmount - curItem.price);
+                setCount(count - 1);
+              }
+            }}
           ></i>
-          {/* <input type="text" placeholder={quantity} /> */}
-          {/* <i className="fa-solid fa-plus" add onClick={() => increment(id)}></i> */}
+          <input type="text" placeholder={count} />
+          <i
+            className="fa-solid fa-plus"
+            add
+            onClick={() => {
+              setTotalAmout(totalAmount + curItem.price);
+              setCount(count + 1);
+            }}
+          ></i>
         </div>
         <div className="price">
           <h3>{curItem?.price}</h3>

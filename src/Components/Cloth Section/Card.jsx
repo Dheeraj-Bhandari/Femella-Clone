@@ -24,6 +24,7 @@ import { Navigate, useNavigate, useSearchParams } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 import { CartContext } from "../../Context/CartContext";
 import CartItems from "./CartItems";
+import CartsItems from "./CartsItems";
 
 const Card = ({ items, w, top, left, right }) => {
   // console.log(items);
@@ -34,13 +35,13 @@ const Card = ({ items, w, top, left, right }) => {
   const [showDrawer, setShowDrawer] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [img, setImage] = useState(items.images[0].url);
-  // const { isOpen, onOpen, onClose } = useDisclosure();
-  // const btnRef = React.useRef();
+
   const [count, setCount] = useState(1);
   const [total, setTotal] = useState(1819);
   const navigate = useNavigate();
-  const { setTotalCart, totolCart } = useContext(CartContext);
-  // console.log(totolCart);
+  const { setTotalCart, totolCart, totalAmount, setTotalAmout } =
+    useContext(CartContext);
+
   const btnRef = React.useRef();
   // const navigate = useNavigate();
   const showCartHandler = () => {
@@ -52,18 +53,18 @@ const Card = ({ items, w, top, left, right }) => {
       key={items.id}
       onMouseEnter={() => {
         showCartHandler();
-        setImage(items.images[1].url);
+        // setImage(items.images[1].url);
       }}
       onMouseLeave={() => {
         setShowCart(false);
-        setImage(items.images[0].url);
+        // setImage(items.images[0].url);
       }}
     >
       <Box position="relative">
         <Image
           h="302px"
           w="205px"
-          src={img}
+          src={items.images[0].url}
           onClick={() => {
             navigate(`/details/${items.id}`);
           }}
@@ -93,12 +94,15 @@ const Card = ({ items, w, top, left, right }) => {
                 h="full"
                 color="white"
                 onClick={() => {
+                  setTotalAmout(
+                    totalAmount + Math.round(items.variants[0].price)
+                  );
                   setTotalCart([
                     ...totolCart,
                     {
                       name: items.name,
                       image: items.images[0].url,
-                      price: 1819,
+                      price: Math.round(items.variants[0].price),
                     },
                   ]);
                 }}
@@ -119,80 +123,7 @@ const Card = ({ items, w, top, left, right }) => {
                 </Text>
                 <DrawerBody mt={5}>
                   {totolCart?.map((items) => (
-                    <>
-                      <Box
-                        display="flex"
-                        border="1px"
-                        p={2}
-                        borderRadius={2}
-                        mt={2}
-                      >
-                        <Box>
-                          <Image
-                            w="150px"
-                            h="110px"
-                            src={items.image}
-                            alt=""
-                          ></Image>
-                        </Box>
-                        <Box
-                          display="flex"
-                          ml={3}
-                          flexDir="column"
-                          alignItems="flex-start"
-                        >
-                          <Text
-                            fontSize="11px"
-                            fontWeight="600"
-                            fontFamily="Lato, san-serif"
-                            textAlign="left"
-                          >
-                            {items.name}
-                          </Text>
-                          <Text fontSize="10px" color="gray">
-                            ₹1,819
-                          </Text>
-                          <Box
-                            mt="50px"
-                            w="80px"
-                            h="16px"
-                            border="1px"
-                            borderColor="gray"
-                            display="flex"
-                            justifyContent="center"
-                            alignItems="center"
-                          >
-                            <Box
-                              onClick={() => {
-                                if (count > 1) {
-                                  setCount(count - 1);
-                                  setTotal(1819 * count);
-                                }
-                              }}
-                              color="gray"
-                              ml={1}
-                              cursor="pointer"
-                            >
-                              -
-                            </Box>
-                            <Box fontSize="14px" ml={5}>
-                              {count}
-                            </Box>
-                            <Box
-                              onClick={() => {
-                                setCount(count + 1);
-                                setTotal(1819 * count);
-                              }}
-                              color="gray"
-                              ml={5}
-                              cursor="pointer"
-                            >
-                              +
-                            </Box>
-                          </Box>
-                        </Box>
-                      </Box>
-                    </>
+                    <CartsItems items={items}></CartsItems>
                   ))}
                 </DrawerBody>
 
@@ -212,7 +143,7 @@ const Card = ({ items, w, top, left, right }) => {
                       <Text fontSize="13px" fontWeight="600">
                         Subtoal:
                       </Text>
-                      <Text>{total}</Text>
+                      <Text>{totalAmount}</Text>
                     </Box>
                     <Button
                       borderRadius="none"
@@ -252,7 +183,7 @@ const Card = ({ items, w, top, left, right }) => {
         </Text>
         <Box display="flex">
           <Text fontSize="13px" fontWeight="600">
-            ₹1,819
+            ₹{Math.round(items.variants[0].price)}
           </Text>
           <Text as="del" color="gray.400" fontSize="10px" mt={1} ml={1}>
             ₹2,599

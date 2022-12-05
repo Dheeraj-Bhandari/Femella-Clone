@@ -10,8 +10,9 @@ import { useNavigate } from "react-router-dom";
 export default function ContextCart() {
   // const [item ,setItem] = React.useState(products)
   // const { item, totalItem, totalAmount } = useContext(CartContext);
-  const { totolCart } = useContext(CartContext);
+  const { totolCart, totalAmount, setTotalCart } = useContext(CartContext);
   console.log(totolCart);
+  let totalItems = totolCart.length;
   const navigate = useNavigate();
   return (
     <div>
@@ -23,14 +24,14 @@ export default function ContextCart() {
 
         <div className="cart-icon">
           <img src="./images/cart.png" alt="cart" />
-          <p>totoalamout</p>
+          {/* <p>totoalamout</p> */}
         </div>
       </header>
       <section className="main-cart-section">
         <h1>YOUR SHOPPING CART</h1>
         <p className="total-items">
-          you have <span className="total-items-count">totalIte</span> items in
-          shopping cart
+          you have <span className="total-items-count">{totalItems}</span> items
+          in shopping cart
         </p>
 
         <div className="cart-items">
@@ -44,7 +45,7 @@ export default function ContextCart() {
         </div>
         <div className="card-total">
           <h3>
-            Sub Total : <span>₹ totalAmoun</span>
+            Sub Total : <span>₹ {totalAmount}</span>
           </h3>
           <br></br>
           <p>
