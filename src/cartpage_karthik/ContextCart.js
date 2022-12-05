@@ -4,6 +4,7 @@ import Items from "./items";
 // import {products} from "./product";
 // import { CartContext } from "./cart";
 import { CartContext, CartContextProvider } from "../Context/CartContext";
+import { useNavigate } from "react-router-dom";
 // import { CartContext } from "./cart";
 
 export default function ContextCart() {
@@ -11,6 +12,7 @@ export default function ContextCart() {
   // const { item, totalItem, totalAmount } = useContext(CartContext);
   const { totolCart } = useContext(CartContext);
   console.log(totolCart);
+  const navigate = useNavigate();
   return (
     <div>
       <header>
@@ -48,7 +50,7 @@ export default function ContextCart() {
           <p>
             Tax included <b>SHIPPING</b> calculated at checkout
           </p>
-          <button>Check out</button>
+          <button onClick={() => navigate("/checkout")}>Check out</button>
         </div>
       </section>
     </div>
