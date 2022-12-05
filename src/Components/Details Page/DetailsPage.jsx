@@ -17,7 +17,7 @@ const DetailsPage = () => {
       });
     console.log(prod);
   }, []);
-  console.log(prod);
+  console.log(prod[0]);
   console.log(prod[0]?.images[0].url);
 
   const size = ["XS", "S", "M", "L", "XL", "XXL"];
@@ -47,14 +47,6 @@ const DetailsPage = () => {
             <Box position="absolute" top="50px" bottom="50px">
               <ProdImages prod={prod}></ProdImages>
             </Box>
-            <Box
-              position="absolute"
-              top="30%"
-              left="80%
-            "
-            >
-              <Image w="10%" ml={50} src={prod[0]?.images[3].url}></Image>
-            </Box>
           </Box>
         </Box>
         <Box w="50vw" h="100vh">
@@ -68,14 +60,14 @@ const DetailsPage = () => {
             // alignItems="center"
           >
             <Text fontSize="14px" fontWeight="500">
-              Black Hooded Cropped Fleece Zip Up
+              {prod[0]?.name}
             </Text>
             <Box display="flex" mt={5}>
               <Text fontSize="18px" fontWeight="600">
-                ₹1,819
+                {Math.round(prod[0]?.variants[0].price)}
               </Text>
               <Text as="del" color="gray.400" fontSize="13px" ml={2}>
-                ₹2,599
+                ₹4,599
               </Text>
               <Box
                 fontSize="13px"

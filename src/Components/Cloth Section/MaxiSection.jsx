@@ -1,4 +1,11 @@
-import { Box, Checkbox, Image, Input, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Checkbox,
+  Image,
+  Input,
+  SimpleGrid,
+  Text,
+} from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import Card from "./Card";
@@ -11,7 +18,7 @@ const MaxiSection = ({}) => {
   const [color, setSColor] = useState("");
   const [size, setSize] = useState("");
   let [serchParams, setSearchParams] = useSearchParams();
-
+  console.log(data);
   const showCartHandler = () => {
     setShowCart(true);
   };
@@ -40,7 +47,7 @@ const MaxiSection = ({}) => {
         ></SortButtons>
         <Box
           display="grid"
-          gridTemplateColumns="1fr 1fr 1fr 1fr"
+          gridTemplateColumns={"1fr 1fr 1fr 1fr 1fr"}
           gap="20px"
           mt={4}
           mb={10}

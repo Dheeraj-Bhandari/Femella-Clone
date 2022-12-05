@@ -23,10 +23,12 @@ import "./HomePageCardCss.css";
 const Cards = ({ ele, w, top, right, left }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [showButton, setShowButton] = useState(false);
-  const { setTotalCart, totolCart } = useContext(CartContext);
+  const { setTotalCart, totolCart, totalAmount, setTotalAmout } =
+    useContext(CartContext);
   const btnRef = React.useRef();
   const [img, setImg] = useState(ele.images[0].url);
   const navigate = useNavigate();
+
   return (
     <>
       <div
