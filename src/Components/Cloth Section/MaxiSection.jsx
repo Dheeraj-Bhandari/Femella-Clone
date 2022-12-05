@@ -23,7 +23,6 @@ const MaxiSection = ({}) => {
       .then((res) => {
         setData(res.products);
         setProducts(res);
-        console.log(res);
       });
   }, [color, size]);
 
@@ -47,7 +46,7 @@ const MaxiSection = ({}) => {
           mb={10}
         >
           {data?.map((items) => (
-            <Card items={items}></Card>
+            <Card items={items} w="190px" top="270px"></Card>
           ))}
         </Box>
       </Box>

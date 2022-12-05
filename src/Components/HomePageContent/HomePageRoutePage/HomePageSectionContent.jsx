@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./HomePageSectionContentCss.css";
-import CartDrawer from "../../Cloth Section/CartDrawer";
+import CartDrawer from "../../Cloth Section/CartItems";
 import Cards from "../HomePageCard/Cards";
 
 const HomePageSectionContent = () => {
@@ -59,7 +59,7 @@ const HomePageSectionContent = () => {
                   src={ele.media[0][1].url}
                   alt={ele.id}
                 /> */}
-                  <LazyLoadImage 
+                <LazyLoadImage
                   src={ele.media[0][1].url}
                   alt={ele.id}
                   effect="blur"
@@ -67,10 +67,11 @@ const HomePageSectionContent = () => {
                   // height={100}
                   key={ele.id}
                   placeholderSrc={ele.media[0][1].url}
-                  
-                  />
+                />
                 <div className="addtocartdiv" id={ele.id}>
-                  <button className="addtoCartbtnSectionpage">Add To Cart</button>
+                  <button className="addtoCartbtnSectionpage">
+                    Add To Cart
+                  </button>
                 </div>
               </div>
               <div className="PriceAndTitleDiv">
