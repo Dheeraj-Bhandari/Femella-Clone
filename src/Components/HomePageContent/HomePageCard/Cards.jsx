@@ -52,6 +52,10 @@ const Cards = ({ ele, w, top, right, left }) => {
             width={"100%"}
             key={ele.id}
             placeholderSrc={ele.images[0].url}
+            onClick={() => {
+              navigate(`/details/${ele.id}`);
+            }}
+            style={{cursor:"pointer"}}
           />
           {showButton && (
             <>

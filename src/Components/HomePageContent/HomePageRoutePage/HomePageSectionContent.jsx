@@ -44,59 +44,67 @@ const HomePageSectionContent = () => {
       <div className="HomePageSectionContentDiv">
         {data.map((ele, index) => {
           return (
-            <div
-              key={ele.id}
-              className="HomePageSectionContentCard"
-              onMouseLeave={() => handleAddToCartStyleonHover(ele.id, "hide")}
-              onMouseEnter={() => handleAddToCartStyleonHover(ele.id, "show")}
-            >
-              <div>
-                {/* <img
-                  className=""
-                  style={{
-                    width: "100%",
-                    //   height: "170px",
-                    //   objectFit: "contain",
-                    //   marginBottom: "10px",
-                  }}
-                  src={ele.media[0][1].url}
-                  alt={ele.id}
-                /> */}
-                <LazyLoadImage
-                  src={ele.media[0][1].url}
-                  alt={ele.id}
-                  effect="blur"
-                  width={"100%"}
-                  // height={100}
-                  key={ele.id}
-                  placeholderSrc={ele.media[0][1].url}
-                />
-                <div className="addtocartdiv" id={ele.id}>
-                  <button className="addtoCartbtnSectionpage">
-                    Add To Cart
-                  </button>
-                </div>
-              </div>
-              <div className="PriceAndTitleDiv">
-                <h5 className="ItemName">{ele.name}</h5>
-                <h5 className="price">
-                  ₹{Math.round(ele.variants[0].price)}{" "}
-                  <span className="mrp">
-                    ₹{Math.round(ele.variants[0].compareAtPrice)}
-                  </span>{" "}
-                  <span className="discount">
-                    &nbsp;{" "}
-                    {Math.round(
-                      ((ele.variants[0].compareAtPrice -
-                        ele.variants[0].price) /
-                        ele.variants[0].compareAtPrice) *
-                        100
-                    )}
-                    % &nbsp;
-                  </span>
-                </h5>
-              </div>
-            </div>
+            // <div
+            //   key={ele.id}
+            //   className="HomePageSectionContentCard"
+            //   onMouseLeave={() => handleAddToCartStyleonHover(ele.id, "hide")}
+            //   onMouseEnter={() => handleAddToCartStyleonHover(ele.id, "show")}
+            // >
+            //   <div>
+            //     {/* <img
+            //       className=""
+            //       style={{
+            //         width: "100%",
+            //         //   height: "170px",
+            //         //   objectFit: "contain",
+            //         //   marginBottom: "10px",
+            //       }}
+            //       src={ele.media[0][1].url}
+            //       alt={ele.id}
+            //     /> */}
+            //     <LazyLoadImage
+            //       src={ele.media[0][1].url}
+            //       alt={ele.id}
+            //       effect="blur"
+            //       width={"100%"}
+            //       // height={100}
+            //       key={ele.id}
+            //       placeholderSrc={ele.media[0][1].url}
+            //     />
+            //     <div className="addtocartdiv" id={ele.id}>
+            //       <button className="addtoCartbtnSectionpage">
+            //         Add To Cart
+            //       </button>
+            //     </div>
+            //   </div>
+            //   <div className="PriceAndTitleDiv">
+            //     <h5 className="ItemNamePrice">{ele.name}</h5>
+            //     <h5 className="price">
+            //       ₹{Math.round(ele.variants[0].price)}{" "}
+            //       <span className="mrp">
+            //         ₹{Math.round(ele.variants[0].compareAtPrice)}
+            //       </span>{" "}
+            //       <span className="discount">
+            //         &nbsp;{" "}
+            //         {Math.round(
+            //           ((ele.variants[0].compareAtPrice -
+            //             ele.variants[0].price) /
+            //             ele.variants[0].compareAtPrice) *
+            //             100
+            //         )}
+            //         % &nbsp;
+            //       </span>
+            //     </h5>
+            //   </div>
+            // </div>
+            <Cards
+            ele={ele}
+            w="190px"
+            top="240px"
+            left="1px"
+            right="15px"
+           
+          ></Cards>
           );
         })}
       </div>

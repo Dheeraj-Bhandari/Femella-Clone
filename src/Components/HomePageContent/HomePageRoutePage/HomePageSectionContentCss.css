@@ -36,7 +36,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .ItemName {
+  .ItemNamePrice {
     font-size: 2 rem;
   }
   .PriceAndTitleDiv {
@@ -49,8 +49,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .ItemName {
-    font-size: 1rem;
+  .ItemNamePrice {
+    font-size: 1.5rem !important; 
   }
   .mrp,
   .discount {
