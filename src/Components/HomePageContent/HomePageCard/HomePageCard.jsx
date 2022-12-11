@@ -8,10 +8,11 @@ import data from "../CatogeryId.json";
 import { useState } from "react";
 import { useEffect } from "react";
 import Cards from "./Cards";
-
+import {useNavigate} from "react-router-dom";
 let slidesToShow = 5;
 const PreviousBtn = (props) => {
   const { className, onClick, currentSlide } = props;
+ 
   return (
     <>
       {currentSlide !== 0 && (
@@ -78,7 +79,7 @@ const HomePageCard = ({ id, title, index }) => {
   const [catdata, setcatdata] = useState([]);
   const [titleimg, settitleimg] = useState(true);
   const [showButton, setShowButton] = useState(false);
-
+  const navigate = useNavigate();
   const updateWidth = () => {
     setWidth(window.innerWidth);
   };
@@ -94,7 +95,7 @@ const HomePageCard = ({ id, title, index }) => {
           `https://smartnav.maker.co/api/get_products_by_category?category_id=${id}&store_id=623d4113c4dcc20004e6d187&sort=default&in_stock=true`
         )
         .then((res) => {
-          //   console.log("catogerydata", res.data.products);
+            // console.log("catogerydata", res.data.products);
           setcatdata(res.data.products);
         })
         .catch((err) => console.log(err));
@@ -124,6 +125,10 @@ const HomePageCard = ({ id, title, index }) => {
           effect="blur"
           key={id}
           placeholderSrc={data.data[index]}
+          // onClick={() => {
+          //   console.log(id)
+          //   navigate(`/details/${data.id}`);
+          // }}
         />
 
         {catdata.map((ele) => {
@@ -134,6 +139,7 @@ const HomePageCard = ({ id, title, index }) => {
               top="240px"
               left="1px"
               right="15px"
+             
             ></Cards>
           );
         })}

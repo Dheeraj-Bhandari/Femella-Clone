@@ -25,13 +25,32 @@ import { useNavigate } from "react-router-dom";
 import { CartContext } from "../Context/CartContext";
 import { AuthContext } from "../Context/AuthContext";
 
+
 function Checkout() {
   const navigate = useNavigate();
   const { setTotalCart, totolCart } = useContext(CartContext);
+  const [loading, setloading] = useState(false)
   const { user } = useContext(AuthContext);
   const [address, setAddress] = useState("");
   console.log(user);
   console.log(totolCart);
+
+
+  
+function gotolastpage(){
+  
+  navigate("/checkout/bill");
+  localStorage.setItem("add", address);
+}
+
+function lastpagecheckout(){
+
+ setTimeout(() => {
+  
+  gotolastpage();
+ }, 3000);
+}
+
   return (
     <div style={{ marginBottom: "5px", marginTop: "30px" }}>
       <div className="main_banner">{/* <img src={banner} /> */}</div>
@@ -146,8 +165,8 @@ function Checkout() {
               <div className="button_section">
                 <Button
                   onClick={() => {
-                    navigate("/checkout/bill");
-                    localStorage.setItem("add", address);
+                    // setloading(true);
+                   lastpagecheckout()
                   }}
                   fontSize="12px"
                 >
@@ -237,6 +256,7 @@ function Checkout() {
           </div>
         </div>
       </div>
+    {/* {loading ?   <img  src="https://media.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif" alt="" /> : ""} */}
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link ,useNavigate } from "react-router-dom";
 import HomePageRoundedSectionmg from "./HomePageRoundedSectionmg.json";
 import "./HomePageRoundedCss.css";
 const HomePageRounded = () => {
   const [Border] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <>
@@ -20,8 +21,14 @@ const HomePageRounded = () => {
         </Link>
         {HomePageRoundedSectionmg.data.map((ele) => {
           return (
-            <Link to={`${ele.title}/${ele.id}`} key={ele.title}>
-              <div className="img">
+            // <Link to={`${ele.title}/${ele.id}`} key={ele.title}>
+              <div className="img"
+               onClick={() => {
+                navigate(`${ele.title}/${ele.id}`);
+              }}
+              key={ele.title}
+              style={{cursor:'pointer'}}
+              >
                 <img
                   className={Border ? "bordercolr" : ""}
                   src={ele.img}
@@ -29,7 +36,7 @@ const HomePageRounded = () => {
                 />
                 <p>{ele.title}</p>
               </div>
-            </Link>
+            // </Link>
           );
         })}
       </div>
