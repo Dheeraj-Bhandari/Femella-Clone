@@ -1,0 +1,2110 @@
+{
+    "guid": "root________",
+    "title": "",
+    "index": 0,
+    "dateAdded": 1609576539831000,
+    "lastModified": 1665753288519000,
+    "id": 1,
+    "typeCode": 2,
+    "type": "text/x-moz-place-container",
+    "root": "placesRoot",
+    "children": [
+        {
+            "guid": "menu________",
+            "title": "menu",
+            "index": 0,
+            "dateAdded": 1609576539831000,
+            "lastModified": 1609576582607000,
+            "id": 2,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "bookmarksMenuFolder",
+            "children": [
+                {
+                    "guid": "BBdxmbrHh2Th",
+                    "title": "Mozilla Firefox",
+                    "index": 0,
+                    "dateAdded": 1609576540134000,
+                    "lastModified": 1609576540134000,
+                    "id": 7,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "DmE8TfLlBlFZ",
+                            "title": "Help and Tutorials",
+                            "index": 0,
+                            "dateAdded": 1609576540134000,
+                            "lastModified": 1609576540134000,
+                            "id": 8,
+                            "typeCode": 1,
+                            "iconUri": "fake-favicon-uri:https://support.mozilla.org/en-US/products/firefox",
+                            "type": "text/x-moz-place",
+                            "uri": "https://support.mozilla.org/en-US/products/firefox"
+                        },
+                        {
+                            "guid": "PewVcpsHpXxR",
+                            "title": "Customize Firefox",
+                            "index": 1,
+                            "dateAdded": 1609576540134000,
+                            "lastModified": 1609576540134000,
+                            "id": 9,
+                            "typeCode": 1,
+                            "iconUri": "fake-favicon-uri:https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize",
+                            "type": "text/x-moz-place",
+                            "uri": "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+                        },
+                        {
+                            "guid": "ppplTkuaNR-V",
+                            "title": "Get Involved",
+                            "index": 2,
+                            "dateAdded": 1609576540134000,
+                            "lastModified": 1609576540134000,
+                            "id": 10,
+                            "typeCode": 1,
+                            "iconUri": "fake-favicon-uri:https://www.mozilla.org/en-US/contribute/",
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/contribute/"
+                        },
+                        {
+                            "guid": "dK_4yzL_ey-o",
+                            "title": "About Us",
+                            "index": 3,
+                            "dateAdded": 1609576540134000,
+                            "lastModified": 1609576540134000,
+                            "id": 11,
+                            "typeCode": 1,
+                            "iconUri": "fake-favicon-uri:https://www.mozilla.org/en-US/about/",
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/about/"
+                        }
+                    ]
+                },
+                {
+                    "guid": "M1kohrk_WmOg",
+                    "title": "CHECKER CC",
+                    "index": 1,
+                    "dateAdded": 1609576582607000,
+                    "lastModified": 1609576582607000,
+                    "id": 73,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "http://specialhacking.webcindario.com/"
+                },
+                {
+                    "guid": "Gx8b1BPCLW63",
+                    "title": "Random Credit Card Numbers Generator - NamsoGen",
+                    "index": 2,
+                    "dateAdded": 1609576582607000,
+                    "lastModified": 1609576582607000,
+                    "id": 74,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://namso-gen.com/"
+                },
+                {
+                    "guid": "jHRlGRAMZPhv",
+                    "title": "ThinkGeekWatches",
+                    "index": 3,
+                    "dateAdded": 1609576582607000,
+                    "lastModified": 1609576582607000,
+                    "id": 75,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://thinkgeekwatches.com/"
+                },
+                {
+                    "guid": "3XPpgm97GI-F",
+                    "title": "AuraWatchss ~ Themes ~ Shopify",
+                    "index": 4,
+                    "dateAdded": 1609576582607000,
+                    "lastModified": 1609576582607000,
+                    "id": 76,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://aurawatchss.myshopify.com/admin/themes?channel=true"
+                },
+                {
+                    "guid": "l0ak8yTgaqrP",
+                    "title": "(1) Facebook pixel",
+                    "index": 5,
+                    "dateAdded": 1609576582607000,
+                    "lastModified": 1609576582607000,
+                    "id": 77,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://business.facebook.com/events_manager2/list/pixel/287467939123437/overview?business_id=724956004958719&act=630487190896914"
+                },
+                {
+                    "guid": "ggkb6L2Dn0Hw",
+                    "title": "Courses",
+                    "index": 6,
+                    "dateAdded": 1609576582607000,
+                    "lastModified": 1609576582607000,
+                    "id": 78,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "1nbCTit122mG",
+                            "title": "MEGA",
+                            "index": 0,
+                            "dateAdded": 1609576582607000,
+                            "lastModified": 1609576582607000,
+                            "id": 79,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://mega.nz/folder/F4wn1aLZ#d0wRBRUXKauTuGf3fs1uAA"
+                        },
+                        {
+                            "guid": "qsrXp7u8OCNI",
+                            "title": "Mobile Security - Reverse Engineer Android Apps From Scratch",
+                            "index": 1,
+                            "dateAdded": 1609576582607000,
+                            "lastModified": 1609576582607000,
+                            "id": 80,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mediafire.com/file/hetfem9w3t4frpo/Mobile_Security_-_Reverse_Engineer_Android_Apps_From_Scratch.rar/file"
+                        },
+                        {
+                            "guid": "TGtWHFZZSBNI",
+                            "title": "MEGA",
+                            "index": 2,
+                            "dateAdded": 1609576582607000,
+                            "lastModified": 1609576582607000,
+                            "id": 81,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://mega.nz/folder/DogRiYxR#olW5ZtQQLRZvHv_IFG4DQA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "guid": "toolbar_____",
+            "title": "toolbar",
+            "index": 1,
+            "dateAdded": 1609576539831000,
+            "lastModified": 1665753288519000,
+            "id": 3,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "toolbarFolder",
+            "children": [
+                {
+                    "guid": "cifEXlDuuCy3",
+                    "title": "Front End Tool",
+                    "index": 0,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 125,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "moJASCer7Ucp",
+                            "title": "93 Beautiful CSS box-shadow examples - CSS Scan",
+                            "index": 0,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 126,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://getcssscan.com/css-box-shadow-examples"
+                        },
+                        {
+                            "guid": "-TGxkeObqhp3",
+                            "title": "Netlify",
+                            "index": 1,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 127,
+                            "typeCode": 1,
+                            "iconUri": "https://www.netlify.com/v3/static/favicon/apple-touch-icon.png",
+                            "type": "text/x-moz-place",
+                            "uri": "https://app.netlify.com/drop"
+                        },
+                        {
+                            "guid": "eNrPvH-62tze",
+                            "title": "On this day in history - Today, August 24",
+                            "index": 2,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 128,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.timeanddate.com/on-this-day/"
+                        },
+                        {
+                            "guid": "qebubaqrOILh",
+                            "title": "This Day in Tech History - The History of Technology in a Daily Blog!",
+                            "index": 3,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 129,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://thisdayintechhistory.com/"
+                        },
+                        {
+                            "guid": "1sFaeXRcmIUn",
+                            "title": "https://www.onthisday.com",
+                            "index": 4,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 130,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.onthisday.com/"
+                        },
+                        {
+                            "guid": "cY4LMJWizSrK",
+                            "title": "Crusal Code Discussion session ",
+                            "index": 5,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 131,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://codesandbox.io/s/ancient-frog-w7wuvs?file=/index.html"
+                        },
+                        {
+                            "guid": "RcSdmwli-yZZ",
+                            "title": "Ultimate CSS Gradient Generator - ColorZilla.com",
+                            "index": 6,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 132,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.colorzilla.com/gradient-editor/"
+                        }
+                    ]
+                },
+                {
+                    "guid": "BOAEx-yZOxxH",
+                    "title": "Tuesday - Friday",
+                    "index": 1,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 133,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "daSRT3YQpuz0",
+                            "title": "9-11:15 LEETCODE GFG With YT",
+                            "index": 0,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 134,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "laJ2GNSJLGNX",
+                                    "title": "LeetCode - The World's Leading Online Programming Learning Platform",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 135,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://leetcode.com/"
+                                },
+                                {
+                                    "guid": "bye2LVepCIWo",
+                                    "title": "Problem of the Day | GeeksforGeeks | A computer science portal for geeks",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 136,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://practice.geeksforgeeks.org/problem-of-the-day"
+                                },
+                                {
+                                    "guid": "eM3zvF-s4DrG",
+                                    "title": "YouTube Creator Studio",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 137,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://studio.youtube.com/channel/UChXHt9pHik0rR0iZDOHNdsg/videos"
+                                },
+                                {
+                                    "guid": "KZD4HRlGIqtH",
+                                    "title": "Youtube ThumbNail",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 138,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.canva.com/design/DAFECM5IqBI/AskCCe_dPUtlWeWe6V7eHA/edit?utm_content=DAFECM5IqBI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                                },
+                                {
+                                    "guid": "IDcdeF_wpyLI",
+                                    "title": "Channel Link",
+                                    "index": 4,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 139,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.youtube.com/channel/UChXHt9pHik0rR0iZDOHNdsg"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "Ht97lPoUnUqW",
+                            "title": "11:15 - 1:45 - Topic Wise And Random Qus Practice ",
+                            "index": 1,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 140,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "MpcmtzBTtMwX",
+                                    "title": "(399) Introduction to Graphs in Data Structures | Representation of Graphs in JAVA - YouTube",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 141,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.youtube.com/watch?v=t0r04fYdT7U&list=PL-Jc9J83PIiHfqDcLZMcO9SsUDY4S3a-v"
+                                },
+                                {
+                                    "guid": "HX0ex1oOptvB",
+                                    "title": "(435) Introduction to Graphs Data Structure | Types of Graph | Hello World Graph Playlist | Hindi - YouTube",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 142,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.youtube.com/watch?v=Y_0-AmbC0Ig&list=PLzjZaW71kMwSrxEtvK5uQnfNQ9UjGGzA-"
+                                },
+                                {
+                                    "guid": "ONx2wMBuElpk",
+                                    "title": "Top 50 Graph Coding Problems for Interviews - GeeksforGeeks",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 143,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.geeksforgeeks.org/top-50-graph-coding-problems-for-interviews/"
+                                },
+                                {
+                                    "guid": "usmyDEzUvoJ6",
+                                    "title": "(32) Graph Intoduction - YouTube",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 144,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.youtube.com/watch?v=8xN3A2JKYqM&list=PLpO3gASfJEIJ6cYs4kAY3SnH2kpohSTZI&index=1"
+                                },
+                                {
+                                    "guid": "hj6NI3YcEfg-",
+                                    "title": "Grind 75 - A better Blind 75 you can customize, by the author of Blind 75",
+                                    "index": 4,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 145,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.techinterviewhandbook.org/grind75?hours=40&mode=all&weeks=6&grouping=weeks"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "Mir2ay4nxBTH",
+                            "title": "Sleep 2-3:30 ",
+                            "index": 2,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 146,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container"
+                        },
+                        {
+                            "guid": "7KrFR-QtjSnl",
+                            "title": "3:30 - 4:30 Reading Modern JavaScript",
+                            "index": 3,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 147,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "hnP1cv2fxv2p",
+                                    "title": "The Modern JavaScript Tutorial",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 148,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://javascript.info/"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "QDHodVaWg_nm",
+                            "title": "4:30 - 6:30 Coding Assignment ",
+                            "index": 4,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 149,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "I8cdMVgIpqPH",
+                                    "title": "Masai School | Course",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 150,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://course.masaischool.com/assignments"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "TRI_L_eMi71P",
+                            "title": "6:30 - 7:30 Coding Video ",
+                            "index": 5,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 151,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "_VPvFIwfpUbh",
+                                    "title": "(214) Advance JavaScript Tutorial in Hindi / Urdu - YouTube",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 152,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG"
+                                },
+                                {
+                                    "guid": "4SbykljK6Jvq",
+                                    "title": "Coding daily Video Assigment",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 153,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://course.masaischool.com/lectures"
+                                },
+                                {
+                                    "guid": "IDeoEJDdVT43",
+                                    "title": "(56) React tutorial for beginners in Hindi - YouTube",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 154,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.youtube.com/playlist?list=PL8p2I9GklV47BCAjiCtuV_liN9IwAl8pM"
+                                },
+                                {
+                                    "guid": "wqTvIr-dW4Iu",
+                                    "title": "Netflix",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 155,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.netflix.com/browse/my-list"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "Mq9ZQbMYPgCN",
+                            "title": "8 - 11 Classes",
+                            "index": 6,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 156,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "151nOLX31lwS",
+                                    "title": "Masai School | Course",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 157,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://course.masaischool.com/dashboard"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "_2isQ1KfTFxv",
+                            "title": "11 PM- 12 PM Assignment",
+                            "index": 7,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 158,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "vYb1FC9rdqAA",
+                                    "title": "Masai School | Course",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 159,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://course.masaischool.com/assignments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "guid": "S5WwcfhGTqYf",
+                    "title": "SATURDAY",
+                    "index": 2,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 160,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "fqOs4j7WxKLN",
+                            "title": "9 - 11 AM Classes",
+                            "index": 0,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 161,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "WbM9zRxxWtK6",
+                                    "title": "Masai School | Course",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 162,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://course.masaischool.com/dashboard"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "HYPRImNGPJt6",
+                            "title": "11 - 12 LeetCode GFG Streak (Imp)",
+                            "index": 1,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 163,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "UpLuCSURQ9l8",
+                                    "title": "LeetCode - The World's Leading Online Programming Learning Platform",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 164,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://leetcode.com/"
+                                },
+                                {
+                                    "guid": "s2ASChpGcmQa",
+                                    "title": "Problem of the Day | GeeksforGeeks | A computer science portal for geeks",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 165,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://practice.geeksforgeeks.org/problem-of-the-day"
+                                },
+                                {
+                                    "guid": "Ra56Y-dJjkeS",
+                                    "title": "YouTube Creator Studio",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 166,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://studio.youtube.com/channel/UChXHt9pHik0rR0iZDOHNdsg/videos"
+                                },
+                                {
+                                    "guid": "N61NTIIWcHvZ",
+                                    "title": "Youtube ThumbNail",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 167,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.canva.com/design/DAFECM5IqBI/AskCCe_dPUtlWeWe6V7eHA/edit?utm_content=DAFECM5IqBI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "AY5LeYxSn87d",
+                            "title": "12- 6 Classes",
+                            "index": 2,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 168,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "hrfaDMWvRPf4",
+                                    "title": "Masai School | Course",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 169,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://course.masaischool.com/dashboard"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "yMElFIZzksSl",
+                            "title": "6 - 8 Rest",
+                            "index": 3,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 170,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container"
+                        },
+                        {
+                            "guid": "_9w6HCaCWrkh",
+                            "title": "8-12 All Pending Assignment Finished (Important )",
+                            "index": 4,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 171,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "A6_CFIJHgXCD",
+                                    "title": "Masai School | Course",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 172,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://course.masaischool.com/assignments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "guid": "lzgWV30UM-e3",
+                    "title": "Sunday -Monday ",
+                    "index": 3,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 173,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "wTeK38DAmHNq",
+                            "title": "9-11:15 LEETCODE GFG With YT",
+                            "index": 0,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 174,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "MUtOF62bbvIN",
+                                    "title": "LeetCode - The World's Leading Online Programming Learning Platform",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 175,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://leetcode.com/"
+                                },
+                                {
+                                    "guid": "8gB2-SY9A9me",
+                                    "title": "Problem of the Day | GeeksforGeeks | A computer science portal for geeks",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 176,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://practice.geeksforgeeks.org/problem-of-the-day"
+                                },
+                                {
+                                    "guid": "USmPbRxgXbYJ",
+                                    "title": "YouTube Creator Studio",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 177,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://studio.youtube.com/channel/UChXHt9pHik0rR0iZDOHNdsg/videos"
+                                },
+                                {
+                                    "guid": "Plgj22qwbjhM",
+                                    "title": "Youtube ThumbNail",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 178,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.canva.com/design/DAFECM5IqBI/AskCCe_dPUtlWeWe6V7eHA/edit?utm_content=DAFECM5IqBI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "7hRYDzU3zUTy",
+                            "title": "11:15 - 1:45 - Topic Wise And Random Qus Practice ",
+                            "index": 1,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 179,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "sZDD17CMs3wi",
+                                    "title": "(399) Introduction to Graphs in Data Structures | Representation of Graphs in JAVA - YouTube",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 180,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.youtube.com/watch?v=t0r04fYdT7U&list=PL-Jc9J83PIiHfqDcLZMcO9SsUDY4S3a-v"
+                                },
+                                {
+                                    "guid": "n2PuscUWl5y2",
+                                    "title": "(435) Introduction to Graphs Data Structure | Types of Graph | Hello World Graph Playlist | Hindi - YouTube",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 181,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.youtube.com/watch?v=Y_0-AmbC0Ig&list=PLzjZaW71kMwSrxEtvK5uQnfNQ9UjGGzA-"
+                                },
+                                {
+                                    "guid": "J6BdWUQSEE_c",
+                                    "title": "Top 50 Graph Coding Problems for Interviews - GeeksforGeeks",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 182,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.geeksforgeeks.org/top-50-graph-coding-problems-for-interviews/"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "3pBWFQqC67iq",
+                            "title": "Sleep 2-3:30 ",
+                            "index": 2,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 183,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container"
+                        },
+                        {
+                            "guid": "MQK_DytzG46a",
+                            "title": "3:30 - 4:30 Reading Modern JavaScript",
+                            "index": 3,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 184,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "BcouhM1cT4BP",
+                                    "title": "The Modern JavaScript Tutorial",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 185,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://javascript.info/"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "D-Cb7M5FKU0a",
+                            "title": "4:30 - 11 PM Project Building",
+                            "index": 4,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 186,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "4x3P_3GawNfh",
+                                    "title": "(21) Creating a Spotify Clone Using HTML, CSS & JavaScript Only | JavaScript Music Player🔥🔥 - YouTube",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 187,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.youtube.com/watch?v=ANzPM5-lwXc&t=2s"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "guid": "-qBPTB8iyBNy",
+                    "title": "My On This Day Sheet - Google Sheets",
+                    "index": 4,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 188,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://docs.google.com/spreadsheets/d/1Gh6zK3PtMYJBpaMBhqy8dgNUVL5MeHWMyK6eOG3Bl-A/edit?ouid=109558565411947281000&usp=sheets_home&ths=true"
+                },
+                {
+                    "guid": "uRk58ozxMRfx",
+                    "title": "Google Calendar - Wednesday, August 31, 2022, today",
+                    "index": 5,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 189,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://calendar.google.com/calendar/u/0/r"
+                },
+                {
+                    "guid": "wPJOtkme5oWv",
+                    "title": "Personal",
+                    "index": 6,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 190,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "jTHHUEFUymbd",
+                            "title": "FBA BUISNESS",
+                            "index": 0,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 191,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "3qIfj8TasmC2",
+                                    "title": "Amazon Seller Central",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 192,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://sellercentral.amazon.in/home"
+                                },
+                                {
+                                    "guid": "P1dHSuPnA68T",
+                                    "title": "Amazon US Marketplace Video call",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 193,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://sellercentral.amazon.com/sw/GREX/SIVInfo/step/VerificationInProgress"
+                                },
+                                {
+                                    "guid": "eVOMup5QirXs",
+                                    "title": "Transparency Portal",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 194,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://transparency.amazon.com/v2/your-products"
+                                },
+                                {
+                                    "guid": "pDTh4bdI00fO",
+                                    "title": "Seller Dashboard",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 195,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://seller.flipkart.com/index.html#dashboard/home-page"
+                                },
+                                {
+                                    "guid": "Yof7YoAsSyPi",
+                                    "title": "Everything You Need to Sell on Amazon and More - Helium 10",
+                                    "index": 4,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 196,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.helium10.com/"
+                                },
+                                {
+                                    "guid": "4u0M3DocZY2B",
+                                    "title": "My account – Private Label Machines",
+                                    "index": 5,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 197,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://privatelabelmachines.com/my-account/"
+                                },
+                                {
+                                    "guid": "7xN60yCRavQk",
+                                    "title": "Bar Codes Talk | UPC & EAN Barcodes",
+                                    "index": 6,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 198,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.barcodestalk.com/"
+                                },
+                                {
+                                    "guid": "uxO54WZ4Hyb9",
+                                    "title": "Google Sheets",
+                                    "index": 7,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 199,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://docs.google.com/spreadsheets/u/0/"
+                                },
+                                {
+                                    "guid": "llmNDicnxutV",
+                                    "title": "PayU Dashboard",
+                                    "index": 8,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 200,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.payu.in/business/settlements#"
+                                },
+                                {
+                                    "guid": "vljWRSjcnWkj",
+                                    "title": "Easy Ship Pickup Misses Issue",
+                                    "index": 9,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 201,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://amazonindia.au1.qualtrics.com/jfe/form/SV_3UbtCZ31UyVUjIy?jfefe=new"
+                                },
+                                {
+                                    "guid": "aj9-98AKaKga",
+                                    "title": "View case",
+                                    "index": 10,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 202,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://sellercentral.amazon.in/cu/case-dashboard/view-case?ref=hill&ie=UTF8&submittedCase=1&messageCode=hill_case_creation_success&caseID=7069663052"
+                                },
+                                {
+                                    "guid": "8XC0eo-mNNL1",
+                                    "title": "Amazon.com: Anker for image graphic ideas",
+                                    "index": 11,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 203,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.amazon.com/stores/Anker/page/D24FDA17-DECF-46BB-AF47-AF4647D2B1F8?ref_=ast_bln"
+                                },
+                                {
+                                    "guid": "zi521PN7E1Wq",
+                                    "title": "Cartly Brand",
+                                    "index": 12,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 204,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "http://cartlybrand.com/wp-admin"
+                                },
+                                {
+                                    "guid": "xWnozujxyuCH",
+                                    "title": "Catly Brand",
+                                    "index": 13,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 205,
+                                    "typeCode": 2,
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "guid": "0tnftyqv5kAy",
+                                            "title": "(20+) Cartly Brand | Facebook",
+                                            "index": 0,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 206,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.facebook.com/Cartly-Brand-101792182144196"
+                                        },
+                                        {
+                                            "guid": "Qwuionp4crQo",
+                                            "title": "Cartly Brnad (@cartly_brand) • Instagram photos and videos",
+                                            "index": 1,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 207,
+                                            "typeCode": 1,
+                                            "iconUri": "https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png#tippytop",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.instagram.com/cartly_brand/"
+                                        },
+                                        {
+                                            "guid": "vJ6tgcbKhjSX",
+                                            "title": "Amazon.in Associates Central - Home",
+                                            "index": 2,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 208,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://affiliate-program.amazon.in/home"
+                                        },
+                                        {
+                                            "guid": "f1jIWNL_I6hK",
+                                            "title": "QR Code Generator - New Manage",
+                                            "index": 3,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 209,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://app.qr-code-generator.com/manage/?login=1"
+                                        },
+                                        {
+                                            "guid": "idxiFn8IBR9a",
+                                            "title": "ManyChatDashboard",
+                                            "index": 4,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 210,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://manychat.com/fb101792182144196/dashboard"
+                                        },
+                                        {
+                                            "guid": "82WAVQkncaOr",
+                                            "title": "Dashboard - FeedbackWhiz.com",
+                                            "index": 5,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 211,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://app.feedbackwhiz.com/dashboard"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "guid": "YlW0BEMrjFmB",
+                                    "title": "Helium10 Login Link//P - Google Docs",
+                                    "index": 14,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 212,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://docs.google.com/document/d/1Fp06gBVGztRUJuYbes0n0x3zrJCiyaKmi1msqD8_bS8/edit"
+                                },
+                                {
+                                    "guid": "otaIxHD7KOy3",
+                                    "title": "Goods & Services Tax (GST) | Login",
+                                    "index": 15,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 213,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://services.gst.gov.in/services/login"
+                                },
+                                {
+                                    "guid": "slXo8M9NIObB",
+                                    "title": "Goods & Services Tax (GST) | Registration",
+                                    "index": 16,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 214,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://reg.gst.gov.in/registration/"
+                                },
+                                {
+                                    "guid": "0zdTk9FLQ-P-",
+                                    "title": "Amazon Brand Registry",
+                                    "index": 17,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 215,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://brandregistry.amazon.in/"
+                                },
+                                {
+                                    "guid": "7D6ULwUcZm1J",
+                                    "title": "Intellectual Property India",
+                                    "index": 18,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 216,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://ipindiaonline.gov.in/trademarkefiling/user/frmloginNew.aspx"
+                                },
+                                {
+                                    "guid": "YDCF8T0mfOeB",
+                                    "title": "Brand Analytics",
+                                    "index": 19,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 217,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://sellercentral.amazon.in/analytics/dashboard/searchTerms"
+                                },
+                                {
+                                    "guid": "_XDBLK1KE3NI",
+                                    "title": "Amazon FBA",
+                                    "index": 20,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 218,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://sellercentral.amazon.in/sw/in/Punjab/step/Upload+Documents"
+                                },
+                                {
+                                    "guid": "psUQnhTMXMqM",
+                                    "title": "IEC code registration",
+                                    "index": 21,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 219,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.dgft.gov.in/CP/web?requestType=ApplicationRH&actionVal=checkLogin"
+                                },
+                                {
+                                    "guid": "pvUb8CZfzO9w",
+                                    "title": "Amazon Advertising HIVE - Festive Summit 2021",
+                                    "index": 22,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 220,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://hive-festivesummit.com/"
+                                },
+                                {
+                                    "guid": "jqSaTtFA26Xv",
+                                    "title": "Meesho | Supplier Panel",
+                                    "index": 23,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 221,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://supplier.meesho.com/panel/v2/new/qrnhc/"
+                                },
+                                {
+                                    "guid": "CEBAZPp5LCwI",
+                                    "title": "Dashboard | sellerboard",
+                                    "index": 24,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 222,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://app.sellerboard.com/en/dashboard"
+                                },
+                                {
+                                    "guid": "D4UaRixC6eDS",
+                                    "title": "https://amazonsellerconnect.wiz365.io/#/",
+                                    "index": 25,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 223,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://amazonsellerconnect.wiz365.io/#/"
+                                },
+                                {
+                                    "guid": "9SzKIS5LZu7v",
+                                    "title": "trademark application status",
+                                    "index": 26,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 224,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://ipindiaonline.gov.in/eregister/eregister.aspx"
+                                },
+                                {
+                                    "guid": "fZatDHmWQE2T",
+                                    "title": "Manage Your Experiments",
+                                    "index": 27,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 225,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://sellercentral.amazon.in/experiments/dashboard/ref=xx_mye_dnav_xx?mons_sel_dir_mcid=amzn1.merchant.d.AC4BBIESP3P4UWCMJI5BZFZVBZ2Q&mons_sel_mkid=A21TJRUUN4KGV&mons_sel_dir_paid=amzn1.pa.d.AAENZCTVC6HWQLGUJQXUMGCO4SWQ&mons_redirect=change_domain"
+                                },
+                                {
+                                    "guid": "ejdILgK5i-ZL",
+                                    "title": "Amazon Adv",
+                                    "index": 28,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 226,
+                                    "typeCode": 2,
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "guid": "vZUkLiiVv-fR",
+                                            "title": "Product tgt",
+                                            "index": 0,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 227,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://register.gotowebinar.com/recording/8894714132767530241"
+                                        },
+                                        {
+                                            "guid": "1yZKC1fxvBvR",
+                                            "title": "Amazon adv report",
+                                            "index": 1,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 228,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://register.gotowebinar.com/recording/7246949723806978828"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "guid": "8msbzYTNtepg",
+                                    "title": "100 buy UPC code for amazon India, Ebay, Flipkart, Amazon USA, 100% Genuine - Gen Pros",
+                                    "index": 29,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 229,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://genpros.in/product/100-upc-ean-certified-bar-code-for-amazon-india-ebay-flipkart-amazon-usa-100-genuine/"
+                                },
+                                {
+                                    "guid": "f4UzDrGivbdD",
+                                    "title": "Amazon GO local Program",
+                                    "index": 30,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 230,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://sellercentral.amazon.in/fba/reg/golocal/details"
+                                },
+                                {
+                                    "guid": "ULfzA0U3XrSo",
+                                    "title": "Landing Pages | Pagemaker",
+                                    "index": 31,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 231,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://app.pagemaker.io/#/landing-pages?page=1"
+                                },
+                                {
+                                    "guid": "nbHXI-PLPTMd",
+                                    "title": "Case Log | Amazon Advertising",
+                                    "index": 32,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 232,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://advertising.amazon.in/caselog/case/7569403592?success=true&entityId=ENTITY2C2W99YJKEZWN"
+                                },
+                                {
+                                    "guid": "P1aJDVEURxD0",
+                                    "title": "Alibaba.com: Manufacturers, Suppliers, Exporters & Importers from the world's largest online B2B marketplace",
+                                    "index": 33,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 233,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.alibaba.com/?spm=a2700.icbu-homelogin.0.0.340c1afaMKSi4h"
+                                },
+                                {
+                                    "guid": "ikJlyktWuETh",
+                                    "title": "Amazon Sign In",
+                                    "index": 34,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 234,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.amazon.in/ap/signin"
+                                },
+                                {
+                                    "guid": "U14yrsmgVZG8",
+                                    "title": "Delhivery Login",
+                                    "index": 35,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 235,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://cl.delhivery.com/login"
+                                },
+                                {
+                                    "guid": "BV9sEKU6l2DX",
+                                    "title": "e-Filing Home Page, Income Tax Department, Government of India",
+                                    "index": 36,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 236,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://eportal.incometax.gov.in/iec/foservices/#/login"
+                                },
+                                {
+                                    "guid": "Gq2tfog0Mf4l",
+                                    "title": "iThink Logistics - welcome",
+                                    "index": 37,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 237,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://manage.ithinklogistics.com/welcome"
+                                },
+                                {
+                                    "guid": "6xOmKLuVCkUS",
+                                    "title": "Amazon Affiliate DreamPair",
+                                    "index": 38,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 238,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://affiliate-program.amazon.in/home/reports"
+                                },
+                                {
+                                    "guid": "eGO5BJzkTQN8",
+                                    "title": "Delivery Login",
+                                    "index": 39,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 239,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://ucp.delhivery.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "d8oRORn02KKA",
+                            "title": "DigitaldDk",
+                            "index": 1,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 240,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "Jx2OVVbyqkBa",
+                                    "title": "Bomber method",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 241,
+                                    "typeCode": 2,
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "guid": "h6QosIu51hYI",
+                                            "title": "Linkedn Article Posting",
+                                            "index": 0,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 242,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.linkedin.com/post/new/"
+                                        },
+                                        {
+                                            "guid": "8HfVQTsac6r1",
+                                            "title": "Quora -Educational Content Online",
+                                            "index": 1,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 243,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://educationalcontentonline.quora.com/"
+                                        },
+                                        {
+                                            "guid": "8xjNvitJXnjC",
+                                            "title": " Medium-New story ",
+                                            "index": 2,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 244,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://medium.com/new-story"
+                                        },
+                                        {
+                                            "guid": "IsL3NKoe7bDh",
+                                            "title": "Mix · For you",
+                                            "index": 3,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 245,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://mix.com/for-you"
+                                        },
+                                        {
+                                            "guid": "pQ3UYV-pFmWu",
+                                            "title": "Pinterest pin posting",
+                                            "index": 4,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 246,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://in.pinterest.com/pin-builder/"
+                                        },
+                                        {
+                                            "guid": "ML2-BRoIrMpS",
+                                            "title": " SlideShare",
+                                            "index": 5,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 247,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.slideshare.net/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "guid": "nY1-ACZfhAGx",
+                                    "title": "Dashboard ‹ Digital Dk — WordPress",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 248,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "http://digitaldk.in/wp-admin/"
+                                },
+                                {
+                                    "guid": "z6qBUIhgbjvp",
+                                    "title": "Home | hPanel",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 249,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://hpanel.hostinger.com/"
+                                },
+                                {
+                                    "guid": "xFMpvNK0MP5y",
+                                    "title": "Analytics | Home",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 250,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://analytics.google.com/analytics/web/#/p255282917/reports/defaulthome?params=_u..nav%3Ddefault"
+                                },
+                                {
+                                    "guid": "XwbZ8if9oJ95",
+                                    "title": "Keyword Reaserch",
+                                    "index": 4,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 251,
+                                    "typeCode": 2,
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "guid": "XfeiDwB3PiQd",
+                                            "title": "Free keyword research tool - Find longtail and related keywords",
+                                            "index": 0,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 252,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.keyword.io/"
+                                        },
+                                        {
+                                            "guid": "L90j3In13kqw",
+                                            "title": "SEMScoop - FREE Keyword Difficulty Tool and Competition Analysis",
+                                            "index": 1,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 253,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://semscoop.com/"
+                                        },
+                                        {
+                                            "guid": "Nd1THSwmk8qm",
+                                            "title": "Google Trends",
+                                            "index": 2,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 254,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://trends.google.com/trends/?geo=US"
+                                        },
+                                        {
+                                            "guid": "sdRloDpFIpqH",
+                                            "title": "Keyword Planner - 863-162-3698 - Google Ads",
+                                            "index": 3,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 255,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://ads.google.com/aw/keywordplanner/home?ocid=495384951&euid=405842335&__u=8742317415&uscid=495384951&__c=5453878399&authuser=0&subid=in-en-ha-aw-bk-c-m00%21o3~Cj0KCQjw9_mDBhCGARIsAN3PaFOyjN4VvvB4yiVkfgfGc9pO0u0Crs2kKv0lDG56vMJhggrDCb0eQ6QaAptgEALw_wcB~79558604282~kwd-58879037234~6490923049~447228571657"
+                                        },
+                                        {
+                                            "guid": "8Qz7G2IfUC2c",
+                                            "title": "Free Online Comma Separator Tool",
+                                            "index": 4,
+                                            "dateAdded": 1665753116878000,
+                                            "lastModified": 1665753116878000,
+                                            "id": 256,
+                                            "typeCode": 1,
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://delim.co/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "guid": "zo3t4yRkSHAG",
+                                    "title": "Add logo to photo online (no upload).",
+                                    "index": 5,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 257,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://addlogo.imageonline.co/"
+                                },
+                                {
+                                    "guid": "aVPjCWeUaY9N",
+                                    "title": "S3 Management Console",
+                                    "index": 6,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 258,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://s3.console.aws.amazon.com/s3/home?region=us-east-2"
+                                },
+                                {
+                                    "guid": "XYvhwiNC9xwv",
+                                    "title": "Dheeraj Article - Google Sheets",
+                                    "index": 7,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 259,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://docs.google.com/spreadsheets/d/1Y22Q1AuEPZtMnzw2P5u_b2UT3VK2KQ3tIbrMwzgRJrg/edit#gid=0"
+                                },
+                                {
+                                    "guid": "I4-koCwyViXZ",
+                                    "title": "Google Search Console",
+                                    "index": 8,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 260,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://search.google.com/search-console?resource_id=http%3A%2F%2Fdigitaldk.in%2F"
+                                },
+                                {
+                                    "guid": "_6tN_rLErrtP",
+                                    "title": "Email Support Digitaldk :: Inbox",
+                                    "index": 9,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 261,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://mail.hostinger.com/?_task=mail&_mbox=INBOX"
+                                },
+                                {
+                                    "guid": "nPlcQaF6BSGd",
+                                    "title": "Google AdSense",
+                                    "index": 10,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 262,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.google.com/adsense/new/u/0/pub-9927096513781413/home?hl=en_US"
+                                },
+                                {
+                                    "guid": "CBImVhxt6CYZ",
+                                    "title": "https://www.canva.com",
+                                    "index": 11,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 263,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.canva.com/"
+                                },
+                                {
+                                    "guid": "n3fE1PFiAfGy",
+                                    "title": "Home – Google AdSense",
+                                    "index": 12,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 264,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.google.com/adsense/new/u/0/pub-9927096513781413/home"
+                                },
+                                {
+                                    "guid": "29GbVFrrWa4k",
+                                    "title": "Log In ‹ Digital Dk — WordPress",
+                                    "index": 13,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 265,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://digitaldk.in/wp-login.php?redirect_to=https%3A%2F%2Fdigitaldk.in%2Fwp-admin%2F&reauth=1"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "zOnqYphorBzt",
+                            "title": "Socail Profiles",
+                            "index": 2,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 266,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "P1th2SizcdNZ",
+                                    "title": "Digital DK - Facebook Page",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 267,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.facebook.com/Digitaldk.in/"
+                                },
+                                {
+                                    "guid": "mO3FnWo2xCPl",
+                                    "title": "(4) Dheeraj Bhandari (@dherajbhandari) / Twitter",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 268,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://twitter.com/dherajbhandari"
+                                },
+                                {
+                                    "guid": "c6zpSrsrB8_m",
+                                    "title": "Dheeraj Bhandari - Quora",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 269,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.quora.com/profile/Dheeraj-Bhandari-48"
+                                },
+                                {
+                                    "guid": "O7tUdXLkbQNX",
+                                    "title": "DHEERAJ BHANDARI (@dheerajbhandari) • Instagram photos and videos",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 270,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.instagram.com/dheerajbhandari/"
+                                },
+                                {
+                                    "guid": "FqygZ7iq7yF3",
+                                    "title": "DHEERAJ BHANDARI – Medium",
+                                    "index": 4,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 271,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://digitaldk-in.medium.com/"
+                                },
+                                {
+                                    "guid": "sNboJK7I2LrH",
+                                    "title": "YouTube Studio",
+                                    "index": 5,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 272,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://studio.youtube.com/channel/UChXHt9pHik0rR0iZDOHNdsg"
+                                },
+                                {
+                                    "guid": "ubJNnxAmmKNQ",
+                                    "title": "Dheeraj Bhandari | LinkedIn",
+                                    "index": 6,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 273,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.linkedin.com/in/digitaldk/"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "BadltiqCY2sy",
+                            "title": "Investment",
+                            "index": 3,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 274,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "Jd--IHsYbDvu",
+                                    "title": "Dashboard / Kite",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 275,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://kite.zerodha.com/dashboard"
+                                },
+                                {
+                                    "guid": "KZddTDlGVX5-",
+                                    "title": "Login - Existing Mutual Fund Investor | Axis MF",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 276,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.axismf.com/dashboard"
+                                },
+                                {
+                                    "guid": "i4O04Qugkg89",
+                                    "title": "PPFAS Dashboard",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 277,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://selfinvest.ppfas.com/dashboard"
+                                },
+                                {
+                                    "guid": "5t5RslgoAxmW",
+                                    "title": "EPFO",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 278,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/"
+                                },
+                                {
+                                    "guid": "kEN-T0AX7DPm",
+                                    "title": "Wazirx For Crypto",
+                                    "index": 4,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 279,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://wazirx.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "guid": "FO7EvhDxdc93",
+                            "title": "Canva Pro Account",
+                            "index": 4,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 280,
+                            "typeCode": 2,
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "guid": "2w6pfy79K0Zd",
+                                    "title": "How To Get Canva Pro For Free | BingoTingo",
+                                    "index": 0,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 281,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://bingotingo.com/how-to-get-canva-pro-for-free/"
+                                },
+                                {
+                                    "guid": "HYXZPprdIsiI",
+                                    "title": "Temp mail",
+                                    "index": 1,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 282,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://10minutesemail.net/"
+                                },
+                                {
+                                    "guid": "LqcdhTam9z5s",
+                                    "title": "MetaMask",
+                                    "index": 2,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 283,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html#"
+                                },
+                                {
+                                    "guid": "-Nom0z_DCuBw",
+                                    "title": "Collaborate & Create Amazing Graphic Design for Free",
+                                    "index": 3,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 284,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.canva.com/en_in/signup/?brandAccessToken=KyGj0WO5CVSvjV5Qf_v3Dg&signupRedirect=%2Fbrand%2Fjoin%3Ftoken%3DKyGj0WO5CVSvjV5Qf_v3Dg%26referrer%3Dteam-invite&loginRedirect=%2Fbrand%2Fjoin%3Ftoken%3DKyGj0WO5CVSvjV5Qf_v3Dg%26referrer%3Dteam-invite"
+                                },
+                                {
+                                    "guid": "T3PmySxnu-Np",
+                                    "title": "Signup to Canva With free pro account",
+                                    "index": 4,
+                                    "dateAdded": 1665753116878000,
+                                    "lastModified": 1665753116878000,
+                                    "id": 285,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.canva.com/en_in/signup/?brandAccessToken=YSAN1dIPxpshxXYcmAlaug&invitationToken=YSAN1dIPxpshxXYcmAlaug&signupRedirect=%2Fbrand%2Fjoin%3Ftoken%3DYSAN1dIPxpshxXYcmAlaug%26referrer%3Dteam-invite&loginRedirect=%2Fbrand%2Fjoin%3Ftoken%3DYSAN1dIPxpshxXYcmAlaug%26referrer%3Dteam-invite"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "guid": "dlwRvoXSNd9e",
+                    "title": "LPU",
+                    "index": 7,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 286,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "9V6dVSkJ4lRi",
+                            "title": "LPU Live",
+                            "index": 0,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 287,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://lpulive.lpu.in/lpu-demo1/messages/2614302"
+                        },
+                        {
+                            "guid": "C671dRaSE47J",
+                            "title": "LPU eStudent Dashboard",
+                            "index": 1,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 288,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://ums.lpu.in/econnect/eDashboard.aspx"
+                        },
+                        {
+                            "guid": "MXOvQLG9zyyF",
+                            "title": "CodeTantra Teach & Learn Anywhere",
+                            "index": 2,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 289,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://lovelyprofessionaluniversity.codetantra.com/secure/home.jsp"
+                        }
+                    ]
+                },
+                {
+                    "guid": "JmbJqTSlfJuX",
+                    "title": "Reading List",
+                    "index": 8,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 290,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "n7i8U9asg6qG",
+                            "title": "The Joel Test: 12 Steps to Better Code – Joel on Software",
+                            "index": 0,
+                            "dateAdded": 1665753116878000,
+                            "lastModified": 1665753116878000,
+                            "id": 291,
+                            "typeCode": 1,
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/"
+                        }
+                    ]
+                },
+                {
+                    "guid": "KawbcpHwReP3",
+                    "title": "Interview Readiness - PT DA Batch - Google Docs",
+                    "index": 9,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 292,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://docs.google.com/document/d/1dHnxravohABIaViOoWp0sywvWuTSnt1tqS4q6V5BEtg/edit#"
+                },
+                {
+                    "guid": "7DXUdy2HI8Dt",
+                    "title": "abhiraj68/Apple-Tv-Clone",
+                    "index": 10,
+                    "dateAdded": 1665753116878000,
+                    "lastModified": 1665753116878000,
+                    "id": 293,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://github.com/abhiraj68/Apple-Tv-Clone"
+                }
+            ]
+        },
+        {
+            "guid": "unfiled_____",
+            "title": "unfiled",
+            "index": 3,
+            "dateAdded": 1609576539831000,
+            "lastModified": 1609576540111000,
+            "id": 5,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "unfiledBookmarksFolder"
+        },
+        {
+            "guid": "mobile______",
+            "title": "mobile",
+            "index": 4,
+            "dateAdded": 1609576539847000,
+            "lastModified": 1609576540111000,
+            "id": 6,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "mobileFolder"
+        }
+    ]
+}

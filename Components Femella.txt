@@ -1,0 +1,18 @@
+Home - Dheeraj - https://www.femella.in/
+
+
+login/signup gift -card - -akhil kumar - https://www.femella.in/account/login
+
+winter wear section / Product explore section  - single page -  vaishav - https://www.femella.in/collections/winter-wear
+
+cart - kartik
+
+checkout and after checkout page - parteek 
+
+Add proper name / Comment / So that it will not make conflict to other components
+
+Deadline - Thursday 1 Dec 
+
+
+// search functionallity 
+// Css- footer -prod detail

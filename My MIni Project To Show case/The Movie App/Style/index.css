@@ -1,0 +1,74 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#belowNavbar {
+
+    background-color: aqua;
+    background-image: url('https://assets.thehansindia.com/hansindia-bucket/h-upload/feeds/2019/07/25/199218-saaho.jpg');
+    border-radius: 10px;
+}
+
+#searchsection {
+    display: flex;
+
+    align-items: center;
+
+
+
+    height: 300px;
+}
+
+.movie {
+
+    /* margin-top: 20px; */
+    display: flex;
+    /* grid-template-columns: repeat(5,1fr); */
+    gap: 10px;
+    text-align: center;
+    overflow-x: auto;
+    /* background-image: url('http://cdn.shopify.com/s/files/1/0087/2506/9860/collections/62100268_444585059675291_6169914146419638272_o_1200x1200.jpg?v=1565283145'); */
+    
+}
+
+.movie::-webkit-scrollbar{
+    width: 1;
+ 
+}
+
+.movie img {
+    width: 200px;
+
+
+}
+.moviedata{
+   
+    max-width: 200px;
+    max-height: 380px;
+    margin-right: 2px;
+    
+    
+}
+.moviedata p,span{
+    height: 10px;
+    
+}
+
+.movie div {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.movie div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    cursor: pointer;
+}

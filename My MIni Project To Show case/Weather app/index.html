@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Wather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #navbar {
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+            background: rgb(226, 226, 226);
+            /* Old browsers */
+            background: -moz-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0);
+            /* IE6-9 */
+
+        }
+
+        .m-0 {
+            display: flex;
+        }
+
+        #searchbtn {
+            background-color: #48484A;
+            color: white;
+        }
+
+        #NavbarOption {
+            /* border: 2px solid red; */
+            justify-content: space-evenly;
+            width: 40%;
+        }
+
+        #belowNavbarContent {
+            display: flex;
+            /* grid-template-columns: repeat(2,1fr); */
+            padding: 30px;
+            background-color: #fcf8f3;
+
+            /* border: 2px solid red; */
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
+            background: rgb(240, 249, 255);
+            /* Old browsers */
+            background: -moz-linear-gradient(top, rgba(240, 249, 255, 1) 0%, rgba(203, 235, 255, 1) 47%, rgba(161, 219, 255, 1) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(240, 249, 255, 1) 0%, rgba(203, 235, 255, 1) 47%, rgba(161, 219, 255, 1) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(240, 249, 255, 1) 0%, rgba(203, 235, 255, 1) 47%, rgba(161, 219, 255, 1) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f9ff', endColorstr='#a1dbff', GradientType=0);
+            /* IE6-9 */
+
+
+
+        }
+
+        #svg {
+            /* width: 40px; */
+        }
+
+        #temp {
+            font-size: xx-large;
+            font-weight: bold;
+        }
+
+        #date {
+            color: #ED7959;
+        }
+
+        #FeelLike {
+            font-size: large;
+        }
+
+        #Map {
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            margin: auto;
+            /* border: 2px solid red; */
+        }
+
+        #LocationDetails {
+            /* border: 2px solid red; */
+            /* width: 500px; */
+            /* margin-left: 20%; */
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            padding: 20px;
+        }
+
+        #ForcastSection {
+            display: flex;
+            font-weight: bold;
+            border-bottom: 5px;
+            /* border: 2px solid red; */
+            width: 100%;
+            margin: auto;
+            gap: 0;
+            border-end-end-radius: 5px;
+            border-end-start-radius: 5px;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+            background: rgb(226, 226, 226);
+            /* Old browsers */
+            background: -moz-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(209, 209, 209, 1) 51%, rgba(254, 254, 254, 1) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0);
+            /* IE6-9 */
+
+            padding: 15px;
+
+
+        }
+
+        .day-0 {
+
+            /* border: 2px solid red; */
+            margin: auto;
+            width: 100px;
+
+            text-align: center;
+            float: left;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
+            background: rgb(208, 228, 247);
+            /* Old browsers */
+            background: -moz-linear-gradient(top, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 24%, rgba(10, 119, 213, 1) 50%, rgba(83, 159, 225, 1) 79%, rgba(135, 188, 234, 1) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 24%, rgba(10, 119, 213, 1) 50%, rgba(83, 159, 225, 1) 79%, rgba(135, 188, 234, 1) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 24%, rgba(10, 119, 213, 1) 50%, rgba(83, 159, 225, 1) 79%, rgba(135, 188, 234, 1) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0e4f7', endColorstr='#87bcea', GradientType=0);
+            /* IE6-9 */
+
+            border-radius: 5px;
+            margin-top: 5px;
+            border: 1px solid #313131;
+
+
+
+        }
+
+        .day-0:hover {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            cursor: pointer;
+            border: 1px solid #313131;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+            background: #1e5799;
+            /* Old browsers */
+            background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+            /* IE6-9 */
+
+        }
+
+        /* map */
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 300px;
+            width: 600px;
+        }
+
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 300px;
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div id="navbar">
+            <nav class="navbar bg-light">
+                <div class="container-fluid">
+                    <form class="m-0" style="width: 50%;" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" id="searchBox"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" id="searchbtn" onclick="fecthWeather()"
+                            type="submit">Search</button>
+
+
+                    </form>
+                    <div id="NavbarOption">
+                        <i class="fa-sharp fa-solid fa-location-arrow"></i>
+                        <button class="btn btn-sm btn-outline-secondary" id="showWidget" onclick="showWidgetOnly()"
+                            type="button">Show Widget Only</button>
+                        <button class="btn btn-sm btn-outline-secondary" type="button">Metric: C, m/s</button>
+                        <button class="btn btn-sm btn-outline-secondary" id="showinF" type="button"
+                            onclick="showinF()">Show in: °F</button>
+                    </div>
+
+                </div>
+
+        </div>
+        <div id="belownavbarparent">
+            <div id="belowNavbarContent">
+
+                <div id="LocationDetails">
+                    <p id="date"></p>
+                    <h2 id="cityName">Search City Name <span id="country"></span></h2>
+
+                    <div id="tempandSvg">
+                        <span> <img id="svg" class="svg1" src="" alt=""> <Span id="temp">
+                            </Span></span>
+
+                    </div>
+
+
+                    <div id="FeelLike">
+                        <p id="lineFirst">Feels like You Have't Searched Anything Yet</p>
+                        <p>4.1m/s WNW 1015hPa</p>
+                        <p id="humidity"></p>
+                        <p id="wind"></p>
+                        <!-- <p>Dew point: 13C Visibility: 10.0km</p> -->
+                    </div>
+                </div>
+
+                <div id="Map">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=bathinda&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://www.whatismyip-address.com/divi-discount/"></a><br>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="ForcastSection">
+                <div class="day-0">
+                    <h4>Sun</h4>
+                    <img id="sun" class="svg1" src="" alt="">
+                    <p>High </p>
+                    <p id="sunHigh"> NA</p>
+                    <p>Low</p>
+                    <p id="sunLow">NA</p>
+                </div>
+                <div class="day-0">
+                    <h4>Mon</h4>
+                    <img id="mon" class="svg1" src="" alt="">
+                    <p>High </p>
+                    <p id="monHigh"> NA</p>
+                    <p>Low</p>
+                    <p id="monLow">NA</p>
+                </div>
+                <div class="day-0">
+                    <h4>Tue</h4>
+                    <img id="tue" class="svg1" src="" alt="">
+                    <p>High </p>
+                    <p id="tueHigh"> NA</p>
+                    <p>Low</p>
+                    <p id="tueLow">NA</p>
+                </div>
+                <div class="day-0">
+                    <h4>Wed</h4>
+                    <img id="wed" class="svg1" src="" alt="">
+                    <p>High </p>
+                    <p id="wedHigh"> NA</p>
+                    <p>Low</p>
+                    <p id="wedLow">NA</p>
+                </div>
+                <div class="day-0">
+                    <h4>Thu</h4>
+                    <img id="thu" class="svg1" src="" alt="">
+                    <p>High </p>
+                    <p id="thuHigh"> NA</p>
+                    <p>Low</p>
+                    <p id="thuLow">NA</p>
+                </div>
+                <div class="day-0">
+                    <h4>Fri</h4>
+                    <img id="fri" class="svg1" src="" alt="">
+                    <p>High </p>
+                    <p id="friHigh"> NA</p>
+                    <p>Low</p>
+                    <p id="friLow">NA</p>
+                </div>
+                <div class="day-0">
+                    <h4>Sat</h4>
+                    <img id="sat" class="svg1" src="" alt="">
+                    <p>High </p>
+                    <p id="satHigh"> NA</p>
+                    <p>Low</p>
+                    <p id="satLow">NA</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="ShowWidgetOnlyDiv" style="display: none;">
+            <div id="openweathermap-widget-11"></div>
+            <script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
+            <script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = []; window.myWidgetParam.push({ id: 11, cityid: '2643743', appid: '629df830d49e9bace88b5dc4408113d5', units: 'metric', containerid: 'openweathermap-widget-11', });
+                (function () {
+                    var script = document.createElement('script'); script.async = true; script.charset = "utf-8"; script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js"; var s
+                        = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+                })();</script>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script>
+        function getMyCurLocation() {
+            const options = {
+                enableHighAccuracy: true,
+                timeout: 5000,
+                maximumAge: 0
+            };
+
+            function success(pos) {
+                const crd = pos.coords;
+
+                console.log('Your current position is:');
+                console.log(`Latitude : ${crd.latitude}`);
+                console.log(`Longitude: ${crd.longitude}`);
+                console.log(`More or less ${crd.accuracy} meters.`);
+
+                // CURRETN LOCATION
+                var curLocationApiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${crd.latitude}&lon=${crd.longitude}&appid=${'629df830d49e9bace88b5dc4408113d5'}&units=metric`
+                var curLocationForcast = `https://api.openweathermap.org/data/2.5/forecast?lat=${crd.latitude}&lon=${crd.longitude}&appid=${'629df830d49e9bace88b5dc4408113d5'}&units=metric`
+                console.log(curLocationApiUrl)
+                console.log(curLocationForcast)
+
+                getCurLocationInfo(curLocationApiUrl, curLocationForcast);
+            }
+
+            function error(err) {
+                console.warn(`ERROR(${err.code}): ${err.message}`);
+            }
+
+            navigator.geolocation.getCurrentPosition(success, error, options);
+
+
+        }
+        getMyCurLocation();
+
+        async function getCurLocationInfo(curLocationApiUrl, curLocationForcast) {
+            const res = await fetch(curLocationApiUrl);
+            const data = await res.json();
+
+            const forcastres = await fetch(curLocationForcast);
+            const forcastdata = await forcastres.json();
+            console.log(data);
+            console.log(forcastdata);
+            showToUI(data, forcastdata, '°C');
+        }
+
+        function fecthWeather() {
+            event.preventDefault();
+            if (localStorage.getItem("inF") == 2) {
+
+                var apikey = '629df830d49e9bace88b5dc4408113d5';
+                var searchBoxValue = document.getElementById("searchBox").value;
+                var ApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${searchBoxValue}&appid=${apikey}&units=metric`
+                var forcastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${searchBoxValue}&appid=${apikey}&units=metric`
+                console.log(searchBoxValue)
+                var CorF = "°C"
+                getWheatherInfo(ApiUrl, forcastUrl, CorF);
+                console.log(ApiUrl)
+                console.log(forcastUrl)
+            }
+            else {
+
+                var apikey = '629df830d49e9bace88b5dc4408113d5';
+                var searchBoxValue = document.getElementById("searchBox").value;
+                var ApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${searchBoxValue}&appid=${apikey}`
+                var forcastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${searchBoxValue}&appid=${apikey}`
+                console.log(searchBoxValue)
+                var CorF = "°F"
+                getWheatherInfo(ApiUrl, forcastUrl, CorF);
+                console.log(ApiUrl)
+                console.log(forcastUrl)
+            }
+
+
+
+        }
+        function showinF() {
+            if (localStorage.getItem('inF') == 1) {
+                localStorage.setItem("inF", 2);
+                var btn = document.getElementById('showinF');
+                btn.style.backgroundColor = "#F8F9FA";
+                btn.style.color = "#6C757D";
+
+            }
+            else {
+                localStorage.setItem("inF", 1)
+                var btn = document.getElementById('showinF');
+                btn.style.backgroundColor = "#6C757D";
+                btn.style.color = "#F8F9FA";
+            }
+
+        }
+
+        function showWidgetOnly() {
+            if (localStorage.getItem('showWidget') == 1) {
+                localStorage.setItem("showWidget", 2);
+                var btn = document.getElementById('showWidget');
+                btn.style.backgroundColor = "#6C757D";
+                btn.style.color = "#F8F9FA";
+                document.getElementById("belownavbarparent").style.display = "none";
+                var widget = document.getElementById("ShowWidgetOnlyDiv")
+                widget.style.display = "block";
+
+
+
+            }
+            else {
+                localStorage.setItem("showWidget", 1)
+                var btn = document.getElementById('showWidget');
+                btn.style.backgroundColor = "#F8F9FA";
+                btn.style.color = "#6C757D";
+                document.getElementById("belownavbarparent").style.display = "block";
+                document.getElementById("ShowWidgetOnlyDiv").style.display = "none";
+            }
+        }
+
+        async function getWheatherInfo(ApiUrl, forcastUrl, CorF) {
+            const res = await fetch(ApiUrl);
+            const data = await res.json();
+            const forcastres = await fetch(forcastUrl);
+            const forcastData = await forcastres.json();
+            console.log(data);
+            console.log(forcastData);
+            showToUI(data, forcastData, CorF);
+        }
+
+        function showToUI(data, forcastData, CorF) {
+
+
+            document.getElementById("date").innerText = `${forcastData.list[0].dt_txt}`
+            document.getElementById("cityName").innerText = `${data.name} ${data.sys.country}`;
+            // adding map
+            document.getElementById('gmap_canvas').src = `https://maps.google.com/maps?q=${data.name}&t=&z=13&ie=UTF8&iwloc=&output=embed`
+            var svg = document.getElementById("svg")
+            svg.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
+            document.getElementById('temp').innerText = `${data.main.temp}${CorF}`
+            document.getElementById('lineFirst').innerText = `Feels like ${data.main.temp} ${data.weather[0].description}, gentle ${data.weather[0].main}`
+
+            document.getElementById('humidity').innerText = `Humidity ${data.main.humidity} Pressure ${data.main.pressure}`
+            document.getElementById('wind').innerText = `Wind Speed ${data.wind.speed} `
+
+            // appending to forcast section
+
+
+            var sun = document.getElementById("sun").src = `http://openweathermap.org/img/wn/${forcastData.list[0].weather[0].icon}@2x.png`
+            var tue = document.getElementById("tue").src = `http://openweathermap.org/img/wn/${forcastData.list[9].weather[0].icon}@2x.png`
+            var mon = document.getElementById("mon").src = `http://openweathermap.org/img/wn/${forcastData.list[17].weather[0].icon}@2x.png`
+            var wed = document.getElementById("wed").src = `http://openweathermap.org/img/wn/${forcastData.list[25].weather[0].icon}@2x.png`
+            var thu = document.getElementById("thu").src = `http://openweathermap.org/img/wn/${forcastData.list[33].weather[0].icon}@2x.png`
+            var fri = document.getElementById("fri").src = `http://openweathermap.org/img/wn/${forcastData.list[39].weather[0].icon}@2x.png`
+            var sat = document.getElementById("sat").src = `http://openweathermap.org/img/wn/${forcastData.list[17].weather[0].icon}@2x.png`
+
+            // apppending high and low temp
+
+            var sunHigh = document.getElementById("sunHigh").innerText = `${forcastData.list[0].main.temp_max}${CorF} `
+            var sunLow = document.getElementById("sunLow").innerText = `${forcastData.list[5].main.temp_min} ${CorF}`
+            var monHigh = document.getElementById("monHigh").innerText = `${forcastData.list[9].main.temp_max} ${CorF}`
+            var monLow = document.getElementById("monLow").innerText = `${forcastData.list[9].main.temp_min} ${CorF}`
+            var tueHigh = document.getElementById("tueHigh").innerText = `${forcastData.list[17].main.temp_max} ${CorF}`
+            var tueLow = document.getElementById("tueLow").innerText = `${forcastData.list[17].main.temp_min} ${CorF}`
+            var wedHigh = document.getElementById("wedHigh").innerText = `${forcastData.list[25].main.temp_max} ${CorF}`
+            var wedLow = document.getElementById("wedLow").innerText = `${forcastData.list[25].main.temp_min} ${CorF}`
+            var thuHigh = document.getElementById("thuHigh").innerText = `${forcastData.list[33].main.temp_max} ${CorF}`
+            var thuLow = document.getElementById("thuLow").innerText = `${forcastData.list[33].main.temp_min} ${CorF}`
+            var friHigh = document.getElementById("friHigh").innerText = `${forcastData.list[39].main.temp_max} ${CorF}`
+            var friLow = document.getElementById("friLow").innerText = `${forcastData.list[39].main.temp_min} ${CorF}`
+            var satHigh = document.getElementById("satHigh").innerText = `${forcastData.list[17].main.temp_max} ${CorF}`
+            var satLow = document.getElementById("satLow").innerText = `${forcastData.list[17].main.temp_min} ${CorF}`
+
+
+
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>

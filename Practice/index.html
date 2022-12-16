@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ body,
+html {
+  height: 100%;
+  width: 100%;
+  background: #141414;
+  margin: 0;
+  padding: 25px;
+  box-sizing: border-box;
+  font-family: Lato, 'Segoe UI', Roboto, sans-serif;
+}
+
+.square {
+  background-size: cover!important;
+  background-position: center!important;
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  transition: transform 100ms ease-out, border-radius 200ms ease-out;
+}
+
+.square:hover {
+  background: url(https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif), url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Arrestbygningen_ved_r%C3%A5d-_og_domhuset.jpg/320px-Arrestbygningen_ved_r%C3%A5d-_og_domhuset.jpg), skyblue;
+  border-radius: 10px 10px 0 0;
+  transform: scale(1.5);
+  box-shadow: 0 0 2px #000a;
+}
+
+.square::after {
+  position: relative;
+  top: 100px;
+  display: block;
+  background: #18181818;
+  box-shadow: 0 0 2px #000a;
+  color: #fff;
+  width: 150px;
+  height: fit-content;
+  padding: 5px;
+  box-sizing: border-box;
+  opacity: 0;
+  border-radius: 0 0 10px 10px;
+  transition: opacity 300ms ease-out, border-radius 200ms ease-out;
+}
+
+.square:hover::after {
+  opacity: 1;
+}
+
+.square.one {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Arrestbygningen_ved_r%C3%A5d-_og_domhuset.jpg/320px-Arrestbygningen_ved_r%C3%A5d-_og_domhuset.jpg), skyblue;
+}
+
+.square.one:hover {
+  background: url(https://media.giphy.com/media/lgcUUCXgC8mEo/giphy.gif), url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Arrestbygningen_ved_r%C3%A5d-_og_domhuset.jpg/320px-Arrestbygningen_ved_r%C3%A5d-_og_domhuset.jpg), skyblue;
+}
+
+.square.one::after {
+  content: 'Never Gonna Give You Up!';
+}
+</style>
+<body>
+    <div class="square one"></div>
+</body>
+<script>
+    $(document).ready(function () {
+                $(document).on('mouseenter', '.transformar', function () {
+                    $(this).find(".playButtons").show('slow');
+                }).on('mouseleave', '.transformar', function () {
+                    $(this).find(".playButtons").hide();
+                });
+            });
+</script>
+</html>

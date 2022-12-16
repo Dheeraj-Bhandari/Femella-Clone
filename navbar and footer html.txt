@@ -1,0 +1,202 @@
+<div class="container">
+        <div id="navbar">
+            <a href="/index.html"> <img src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0"
+                    alt=""></a>
+
+            <div id="pipe">
+                <i class="fa-light fa-pipe"></i>
+
+            </div>
+            <div id="navbarDelivery">
+                <p>Delivery To</p>
+                <h6>Selected Pincode <span><i class="fa-sharp fa-solid fa-chevron-down"></i></span> </h6>
+            </div>
+
+
+            <div id="navbarEnd">
+                <div id="navbarDownloadApp">
+                    <p> <i class="fa-sharp fa-solid fa-mobile"></i> Download App</p>
+                </div>
+                <!--  -->
+
+
+
+                <div id="navbarLogin">
+                    <!-- <div class="dropdown">
+                        <span>See More</span>
+                        <div class="dropdown-content">
+                            <p id="logoutNavBar" onclick="logoutFunc()">Log Out</p>
+                        </div>
+                    </div> -->
+                    <p id="loginbtn"> <i class="fa-solid fa-user"></i> Hello, Log In</p>
+                </div>
+
+
+                <!-- Login Page -->
+
+                <div id="loginpage">
+                    <div id="logintop">
+                        <button id="closebtn"><i class="fas fa-times"></i></button>
+
+                        <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+                    </div>
+                    <div id="loginbottom">
+                        <form action="" id="loginform">
+                            <label for="">Quick Login /Register</label>
+                            <input type="text" placeholder="Enter your phone number" id="loginphone">
+                            <p id='errormsg'></p>
+
+                            <input type="submit" value="Send OTP" id="continuepart">
+
+                        </form>
+                        <p>By clicking continue, you agree with our <span>Privacy Policy</span></p>
+                    </div>
+                </div>
+                <!--  -->
+                <div id="navbarOffer">
+                    <p> <i class="fa-sharp fa-solid fa-badge-percent"></i> Offer</p>
+                </div>
+                <br>
+                <div id="NavBarcart">
+
+
+                    <p> <i class="fa-sharp fa-solid fa-cart-shopping"></i> Cart</p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- <div id="belowNavBarLine"> -->
+    <div id="belowNavbarData">
+        <!-- <div class="container"> -->
+            <div id="belownavbardata">
+                <!-- <span>Medicine <span></span>Healthcare <span>Lab Tests <span>Offers <span>PLUS <span>Health Blogs</span></span></span></span></span> -->
+                <div id="belowNavdataContainer" class="container">
+                    <p>Medicine</p>
+                    <p>Healthcare</p>
+                    <p>Lab Tests</p>
+                     <p>Offers</p>
+                    <p>PLUS</p>
+                    <p>Health Blogs</p>
+                </div>
+                    
+                
+                
+                
+            <!-- </div> -->
+        </div>
+
+    </div>
+
+<div id="FooterPicSection">
+        <hr id="hrfooter1">
+        <div class="container">
+
+            <img id="Footerimg1" src="/Product page/img/Footer 1.png" alt="">
+        </div>
+        <hr id="hrfooter1">
+        <div class="container">
+            <img id="Footerimg2" src="/Product page/img/Footer 2.png" alt="">
+        </div>
+
+    </div>
+
+
+    <!-- Footer Linkes -->
+    <div id="Footer">
+
+        <div class="container">
+            <div id="FooterLinks">
+                <div id="FooterDiv1">
+                    <p>Company</p>
+                    <ul>About us</ul>
+                    <ul>Careers</ul>
+                    <ul>Blog</ul>
+                    <ul>Partner with PharmEasy</ul>
+                    <ul>Partner with PharmEasy</ul>
+
+                    <!-- <br> -->
+                    <p>Our Services</p>
+                    <ul>Order Medicine</ul>
+                    <ul>Healthcare Products</ul>
+                    <ul>Lab Tests</ul>
+                </div>
+
+                <div id="FooterDiv2">
+                    <p>Features Categories</p>
+                    <ul>Covid Essentials</ul>
+                    <ul>Personal Care</ul>
+                    <ul>Health Food and Drinks</ul>
+                    <ul>Beauty</ul>
+                    <ul>Skin Care</ul>
+                    <ul>Home Care</ul>
+                    <ul>Ayurvedic Care</ul>
+                    <ul>Sexual Wellness</ul>
+                    <ul>Sexual Wellness</ul>
+                    <ul>Fitness Supplements</ul>
+                    <ul>Mother and Baby Care</ul>
+                    <ul>Healthcare Devices</ul>
+                    <ul>Health Condition</ul>
+                    <ul>Diabetic Care</ul>
+                    <ul>Elderly Care</ul>
+                    <ul>Accessories And Wearables</ul>
+                    <ul>Top Products</ul>
+                </div>
+
+
+                <div id="FooterDiv3">
+                    <p>Need Help</p>
+                    <ul>Browse All Molecules</ul>
+                    <ul>Browse All Cities</ul>
+                    <ul>Browse All Areas</ul>
+                    <ul>Browse All Stores</ul>
+
+                    <!-- <br> -->
+                    <p>FAQs</p>
+                    <ul>Policy Info</ul>
+                    <ul>Editorial Policy</ul>
+                    <ul>Privacy Policy</ul>
+                    <ul>Vulnerability Disclosure Policy</ul>
+                    <ul>Terms and Conditions</ul>
+                    <ul>Customer Support Policy</ul>
+                    <ul>Return Policy</ul>
+                </div>
+
+                <div id="FooterDiv4">
+                    <p>Follow us on</p>
+                    <div id="Footer4SocialMediaIcon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div id="FooterPayment">
+                <p id="FooterPaymentPatnerP">Our Payment Partners</p>
+                <div id="paymentimg">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/gpay.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/paytm.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/phonepe.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/amazon.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/mobikwik.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/olamoney.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/maestro.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/mastercard.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/visa.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/rupay.png?dim=1440x0" alt="">
+                    <p>© 2022 PharmEasy. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    

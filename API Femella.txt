@@ -1,0 +1,8 @@
+Get Catogery List
+https://smartnav.maker.co/api/get_products_by_category?category_id=234593550507&store_id=623d4113c4dcc20004e6d187&sort=default&in_stock=true
+
+Get Product Detail 
+https://smartnav.maker.co/api/get_products?product_ids=7224887410859&store_id=623d4113c4dcc20004e6d187&in_stock=true
+
+
+
